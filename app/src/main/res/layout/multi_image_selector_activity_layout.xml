@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fits_system_windows"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/head_title_option_with_back" />
+
+    <View style="@style/color_divide_line_style" />
+
+    <FrameLayout
+        android:id="@+id/content_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

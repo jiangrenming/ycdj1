@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/tab2_head_title_option_with_back" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="15dp"
+                    android:background="#F88919" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/tab3_wxy_detail_text_11"
+                    android:textColor="#F88919"
+                    android:textSize="@dimen/f16" />
+
+                <TextView
+                    android:id="@+id/title_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/tab3_wxy_detail_text_11"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f16" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/content_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/omeng_color_11"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/tab3_wxy_detail_text_11"
+                android:textColor="@color/omeng_color_13"
+                android:textSize="@dimen/f16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/date_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_time"
+                    android:drawablePadding="4dp"
+                    android:text="@string/tab3_wxy_text_31"
+                    android:textColor="@color/omeng_color_6"
+                    android:textSize="@dimen/f13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab3_wxy_detail_text_13"
+                    android:textColor="@color/omeng_color_6"
+                    android:textSize="@dimen/f13" />
+
+                <TextView
+                    android:id="@+id/status_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tab3_weixinyuan_status_1_btn_shape"
+                    android:drawableLeft="@drawable/tab3_wei_xin_yuan_icon_aixin_1"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="3dp"
+                    android:text="@string/tab3_wxy_text_22"
+                    android:textColor="@color/tab3_weixinyuan_status_text_color_1"
+                    android:textSize="@dimen/f13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="15dp"
+                    android:background="#F88919" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/tab3_wxy_detail_text_21"
+                    android:textColor="#F88919"
+                    android:textSize="@dimen/f16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp">
+
+                <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/icon_image_view"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/glide_place_holder_c8"
+                    app:border_color="@color/omeng_color_11"
+                    app:border_color2="@color/circle_image_border_2_color"
+                    app:border_width="@dimen/border_width"
+                    app:border_width2="@dimen/divider_height" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/temp_1_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab3_wxy_detail_text_22"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/name_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/temp_1_text_view"
+                        android:textColor="@color/omeng_color_14"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/temp_2_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_1_text_view"
+                        android:text="@string/tab3_wxy_detail_text_23"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/age_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_1_text_view"
+                        android:layout_toRightOf="@+id/temp_2_text_view"
+                        android:textColor="@color/omeng_color_14"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/temp_3_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_2_text_view"
+                        android:text="@string/tab3_wxy_detail_text_24"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/sex_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_2_text_view"
+                        android:layout_toRightOf="@+id/temp_3_text_view"
+                        android:textColor="@color/omeng_color_14"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/temp_4_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_3_text_view"
+                        android:text="@string/tab3_wxy_detail_text_25"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/address_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/temp_3_text_view"
+                        android:layout_toRightOf="@+id/temp_4_text_view"
+                        android:textColor="@color/omeng_color_14"
+                        android:textSize="@dimen/f13" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/helper_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="15dp">
+
+                    <ImageView
+                        android:layout_width="3dp"
+                        android:layout_height="15dp"
+                        android:background="#F88919" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="@string/tab3_wxy_detail_text_41"
+                        android:textColor="#F88919"
+                        android:textSize="@dimen/f16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp">
+
+                    <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/icon2_image_view"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/glide_place_holder_c8"
+                        app:border_color="@color/omeng_color_11"
+                        app:border_color2="@color/circle_image_border_2_color"
+                        app:border_width="@dimen/border_width"
+                        app:border_width2="@dimen/divider_height" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/temp_21_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tab3_wxy_detail_text_42"
+                            android:textColor="@color/omeng_color_13"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/name2_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/temp_21_text_view"
+                            android:textColor="@color/omeng_color_14"
+                            android:textSize="@dimen/f13" />
+                        <TextView
+                            android:id="@+id/temp_24_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/temp_21_text_view"
+                            android:text="@string/tab3_wxy_detail_text_45"
+                            android:textColor="@color/omeng_color_13"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/phone_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/temp_21_text_view"
+                            android:layout_toRightOf="@+id/temp_24_text_view"
+                            android:textColor="@color/omeng_color_14"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/temp_22_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/temp_24_text_view"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/tab3_wxy_detail_text_43"
+                            android:textColor="@color/omeng_color_13"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/dangzuzhi_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/temp_24_text_view"
+                            android:layout_toRightOf="@+id/temp_22_text_view"
+                            android:textColor="@color/omeng_color_14"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/temp_23_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dangzuzhi_text_view"
+                            android:text="@string/tab3_wxy_detail_text_44"
+                            android:textColor="@color/omeng_color_13"
+                            android:textSize="@dimen/f13"
+                            android:visibility="gone"
+                            />
+
+                        <TextView
+                            android:id="@+id/company_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dangzuzhi_text_view"
+                            android:layout_toRightOf="@+id/temp_23_text_view"
+                            android:textColor="@color/omeng_color_14"
+                            android:visibility="gone"
+                            android:textSize="@dimen/f13" />
+
+
+
+                        <TextView
+                            android:id="@+id/temp_25_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/phone_text_view"
+                            android:text="@string/tab3_wxy_detail_text_46"
+                            android:visibility="gone"
+                            android:textColor="@color/omeng_color_13"
+                            android:textSize="@dimen/f13" />
+
+                        <TextView
+                            android:id="@+id/introduce_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/phone_text_view"
+                            android:layout_toRightOf="@+id/temp_24_text_view"
+                            android:textColor="@color/omeng_color_14"
+                            android:visibility="gone"
+                            android:textSize="@dimen/f13" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="15dp">
+
+                    <ImageView
+                        android:layout_width="3dp"
+                        android:layout_height="15dp"
+                        android:background="#F88919" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="@string/tab3_wxy_detail_text_51"
+                        android:textColor="#F88919"
+                        android:textSize="@dimen/f16" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:id="@+id/weiwancheng_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/omeng_color_11"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/tab3_wxy_detail_text_52"
+                            android:textColor="@color/omeng_color_4"
+                            android:textSize="@dimen/f15" />
+
+                        <EditText
+                            android:id="@+id/result_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/omeng_color_11"
+                            android:gravity="top"
+                            android:hint="@string/tab3_wxy_detail_text_53"
+                            android:minHeight="120dp"
+                            android:padding="12dp"
+                            android:textColor="@color/omeng_color_5"
+                            android:textColorHint="@color/omeng_color_6"
+                            android:textSize="@dimen/f15" />
+                    </LinearLayout>
+
+                    <View style="@style/color_divide_line_style" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/omeng_color_11"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tab3_wxy_detail_text_61"
+                            android:textColor="@color/omeng_color_5"
+                            android:textColorHint="@color/omeng_color_6"
+                            android:textSize="@dimen/f15" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tab3_wxy_detail_text_62"
+                            android:textColor="@color/omeng_color_5"
+                            android:textColorHint="@color/omeng_color_6"
+                            android:textSize="@dimen/f13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/omeng_color_11"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recyclerView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:overScrollMode="never"
+                            android:scrollbars="none" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/yiwancheng_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/omeng_color_11"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/finish_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_13"
+                        android:textSize="@dimen/f16" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/commit_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tab1_hu_dong_ping_lun_detail_btn_selector"
+                android:gravity="center"
+                android:text="@string/tab3_wxy_detail_text_31"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f16" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.shanjin.android.omeng.merchant.library.view.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/multi_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        app:msv_animateViewChanges="false"
+        app:msv_emptyView="@layout/empty_view"
+        app:msv_errorView="@layout/error_view"
+        app:msv_loadingView="@layout/loading_view"
+        app:msv_viewState="loading">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.shanjin.android.omeng.merchant.library.view.MultiStateView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

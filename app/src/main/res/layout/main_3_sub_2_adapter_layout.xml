@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f16" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <cn.jzvd.JZVideoPlayerStandard
+                android:id="@+id/videoPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/glide_place_holder_c8" />
+
+            <TextView
+                android:id="@+id/duration_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/icon_image_view"
+                android:layout_alignRight="@+id/icon_image_view"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/tab3_huo_dong_shi_pin_duration_shape"
+                android:drawableLeft="@drawable/tab3_huo_dong_shi_pin_play_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f12"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/city_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="12dp"
+            android:layout_marginRight="6dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_address"
+            android:drawablePadding="4dp"
+            android:textColor="@color/omeng_color_6"
+            android:textSize="@dimen/f13" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:id="@+id/time_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableLeft="@drawable/tab2_huo_dong_icon_shijian"
+                android:textSize="@dimen/f13"
+                android:textColor="@color/omeng_color_6"
+                />
+
+
+            <TextView
+                android:id="@+id/see_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_see"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13" />
+
+            <TextView
+                android:id="@+id/zan_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/icon_zan"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

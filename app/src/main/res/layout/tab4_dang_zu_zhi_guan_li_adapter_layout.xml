@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/icon_image_view"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/glide_place_holder_c8" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f16" />
+
+        <TextView
+            android:id="@+id/xiashu_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_text_view"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:textColor="@color/omeng_color_6"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/count_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_text_view"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/xiashu_text_view"
+            android:textColor="@color/omeng_color_6"
+            android:textSize="@dimen/f13" />
+    </RelativeLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

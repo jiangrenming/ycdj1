@@ -1,0 +1,808 @@
+<resources>
+    <string name="app_name">盐南党建</string>
+
+    <string name="buffering">缓冲中&#8230;</string>
+    <string name="find_update_hint">检测到新版本，是否更新？</string>
+    <string name="find_update">检测到新版本，请确定更新？</string>
+    <string name="start_update_hint">开始下载&#8230;</string>
+    <string name="empty_select_hint">请至少选择一个</string>
+    <string name="empty_hint">暂无数据可选</string>
+    <string name="delete_image_hint">确定要删除图片吗?</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+
+    <!--MainActivity-->
+    <string name="main_menu_text_1">党员E家</string>
+    <string name="main_menu_text_2">云端先锋</string>
+    <string name="main_menu_text_3">服务超市</string>
+    <string name="main_menu_text_4">个人中心</string>
+
+    <!--LoginActivity-->
+    <string name="login_text_1">请输入用户名</string>
+    <string name="login_text_2">请输入登录密码</string>
+    <string name="login_text_3">立即登录</string>
+    <string name="login_text_4">记住密码</string>
+    <string name="login_text_51">登录成功</string>
+    <string name="login_text_52">登录失败</string>
+    <string name="login_text_6">手机号格式不正确</string>
+
+    <!--Main1Fragment-->
+    <string name="main_1_text_11">信息资讯</string>
+    <string name="main_1_text_12">组织生活</string>
+    <string name="main_1_text_13">在线学习</string>
+    <string name="main_1_text_14">交流互动</string>
+    <string name="main_1_text_15">党费缴纳</string>
+    <string name="main_1_text_21">党建动态</string>
+    <string name="main_1_text_22">通知公告</string>
+
+    <!--MainSub1Fragment-->
+    <string name="main_sub_1_text_1">还没有数据~</string>
+    <string name="main_sub_1_text_2">%1$s·%2$s</string>
+
+    <!--Tab1DangJianDongTaiDetailActivity-->
+    <string name="tab1_djdt_detail_text_11">点赞成功</string>
+    <string name="tab1_djdt_detail_text_12">点赞失败</string>
+    <string name="tab1_djdt_detail_text_13">您已经点赞过了</string>
+
+    <!--Tab1TongZhiGongGaoDetailActivity-->
+    <string name="tab1_tzgg_detail_text_11">我要举报</string>
+    <string name="tab1_tzgg_detail_text_12">请详细填写，以确保举报能够被受理</string>
+    <string name="tab1_tzgg_detail_text_13">发送</string>
+    <string name="tab1_tzgg_detail_text_21">举报成功</string>
+    <string name="tab1_tzgg_detail_text_22">举报失败</string>
+    <string name="tab1_tzgg_detail_text_3">举报内容已提交，请等待回复！</string>
+
+    <!--Tab1ZuZhiShengHuoActivity-->
+    <string name="tab1_zzsh_text_11">全部活动</string>
+    <string name="tab1_zzsh_text_12">我的活动</string>
+    <string name="tab1_zzsh_text_31">正在报名</string>
+    <string name="tab1_zzsh_text_32">进行中</string>
+    <string name="tab1_zzsh_text_33">活动已结束</string>
+    <string name="tab1_zzsh_text_4">%1$s/%2$d人</string>
+
+    <!--Tab1ZuZhiShengHuoHuoDongDetailActivity-->
+    <string name="tab1_zzsh_detail_title">活动详情</string>
+    <string name="tab1_zzsh_detail_text_11">活动名称</string>
+    <string name="tab1_zzsh_detail_text_12">开始时间</string>
+    <string name="tab1_zzsh_detail_text_13">联系人</string>
+    <string name="tab1_zzsh_detail_text_14">活动地点</string>
+    <string name="tab1_zzsh_detail_text_15">结束时间</string>
+    <string name="tab1_zzsh_detail_text_16">联系方式</string>
+    <string name="tab1_zzsh_detail_text_17">详细内容</string>
+    <string name="tab1_zzsh_detail_text_21">我要报名</string>
+    <string name="tab1_zzsh_detail_text_22">我已报名</string>
+    <string name="tab1_zzsh_detail_text_31">报名成功</string>
+    <string name="tab1_zzsh_detail_text_32">报名失败</string>
+
+    <!--Tab1ZaiXianXueXiActivity-->
+    <string name="tab1_zxxx_text_11">全部学习</string>
+    <string name="tab1_zxxx_text_12">我的学习</string>
+    <string name="tab1_zxxx_text_21">热门课件</string>
+    <string name="tab1_zxxx_text_22">学习排行</string>
+    <string name="tab1_zxxx_text_3">在线\n考试</string>
+    <string name="tab1_zxxx_text_41">全部</string>
+    <string name="tab1_zxxx_text_42">未学习</string>
+    <string name="tab1_zxxx_text_43">学习中</string>
+    <string name="tab1_zxxx_text_44">已完成</string>
+
+    <!--Tab1ZaiXianXueXiDetailActivity-->
+    <string name="tab1_zxxx_detail_title">在线学习</string>
+    <string name="tab1_zxxx_detail_text_11">已有%1$s人学习</string>
+    <string name="tab1_zxxx_detail_text_12">已学习&#160;:&#160;%1$s</string>
+    <string name="tab1_zxxx_detail_text_13">提交心得体会&#160;:&#160;</string>
+    <string name="tab1_zxxx_detail_text_14">请输入心得体会！</string>
+    <string name="tab1_zxxx_detail_text_21">提交</string>
+    <string name="tab1_zxxx_detail_text_22">提交成功</string>
+    <string name="tab1_zxxx_detail_text_23">提交失败</string>
+    <string name="tab1_zxxx_detail_text_31">开始学习失败</string>
+    <string name="tab1_zxxx_detail_text_41">错误的PDF文件</string>
+
+    <!--Tab1ZaiXianXueXi1SubFragment-->
+    <string name="tab1_zxxx_sub_text_11">学习时长&#160;:&#160;%1$d分钟</string>
+    <string name="tab1_zxxx_sub_text_12">已有%1$s人学习</string>
+    <string name="tab1_zxxx_sub_text_21">未学习</string>
+    <string name="tab1_zxxx_sub_text_22">学习中</string>
+    <string name="tab1_zxxx_sub_text_23">已学习</string>
+    <string name="tab1_zxxx_sub_text_31">未学习</string>
+    <string name="tab1_zxxx_sub_text_32">未完成</string>
+    <string name="tab1_zxxx_sub_text_33">已完成</string>
+
+    <!--Tab1ReMenKeJianFragment-->
+    <string name="tab1_rmkj_text_11">发布时间&#160;:&#160;%1$s</string>
+    <string name="tab1_rmkj_text_12">已有%1$s人学习</string>
+
+    <!--Tab1JiaoLiuHuDongActivity-->
+    <string name="tab1_jlhd_text_11">互动评论</string>
+    <string name="tab1_jlhd_text_12">在线投票</string>
+    <string name="tab1_jlhd_text_13">在线咨询</string>
+    <string name="tab1_jlhd_text_2">立刻进入</string>
+
+    <!--Tab1ZaiXianTouPiaoActivity-->
+    <string name="tab1_zxtp_text_11">进行中</string>
+    <string name="tab1_zxtp_text_12">已结束</string>
+    <string name="tab1_zxtp_text_21">%1$s-%2$s</string>
+    <string name="tab1_zxtp_text_22">已有%1$s人参与</string>
+
+    <!--Tab1ZaiXianTouPiaoDetailActivity-->
+    <string name="tab1_zxtp_detail_text_11">参与人数</string>
+    <string name="tab1_zxtp_detail_text_12">投票截止时间&#160;:&#160;%1$s</string>
+    <string name="tab1_zxtp_detail_text_13">投票</string>
+    <string name="tab1_zxtp_detail_text_14">投票已结束</string>
+    <string name="tab1_zxtp_detail_text_15">您已投票</string>
+    <string name="tab1_zxtp_detail_text_21">投票失败</string>
+    <string name="tab1_zxtp_detail_text_22">您已投票成功！</string>
+    <string name="tab1_zxtp_detail_text_23">好的</string>
+    <string name="tab1_zxtp_detail_text_31">&#160;|&#160;%1$s票</string>
+    <string name="tab1_zxtp_detail_text_41">您还没有选择</string>
+
+    <!--Tab1HuDongPingLunDetailActivity-->
+    <string name="tab1_hdpl_detail_text_11">写评论</string>
+    <string name="tab1_hdpl_detail_text_12">发表</string>
+    <string name="tab1_hdpl_detail_text_13">请填写评论</string>
+    <string name="tab1_hdpl_detail_text_21">评论成功</string>
+    <string name="tab1_hdpl_detail_text_22">评论失败</string>
+
+    <!--Tab1HuDongPingLunDetailReplyActivity-->
+    <string name="tab1_hdpl_detail_reply_text_11">回复</string>
+    <string name="tab1_hdpl_detail_reply_text_12">全部%1$s条回复></string>
+
+    <!--Tab1HuDongPingLunDetailReplyDetailActivity-->
+    <string name="tab1_hdpl_detail_reply_detail_title">评论详情</string>
+    <string name="tab1_hdpl_detail_reply_detail_text_11">回复&#160;%1$s&#160;:</string>
+    <string name="tab1_hdpl_detail_reply_detail_text_12">%1$s&#160;回复&#160;%2$s</string>
+    <string name="tab1_hdpl_detail_reply_detail_text_13">请填写回复内容</string>
+    <string name="tab1_hdpl_detail_reply_detail_text_21">回复成功</string>
+    <string name="tab1_hdpl_detail_reply_detail_text_22">回复失败</string>
+
+    <!--Tab1WoDeJuBaoActivity-->
+    <string name="tab1_wdjb_text_title">我的举报</string>
+    <string name="tab1_wdjb_text_1">举报时间&#160;:&#160;%1$s</string>
+    <string name="tab1_wdjb_text_21">已回复</string>
+    <string name="tab1_wdjb_text_22">未回复</string>
+
+    <!--Tab1WoDeJuBaoDetailActivity-->
+    <string name="tab1_wdjb_detail_text_11">举报&#160;:&#160;</string>
+    <string name="tab1_wdjb_detail_text_21">回复</string>
+    <string name="tab1_wdjb_detail_text_22">回复成功</string>
+    <string name="tab1_wdjb_detail_text_23">回复失败</string>
+
+    <!--Tab1ReMenKeJianActivity-->
+    <string name="tab1_rmkj_title">&#160;热门课件</string>
+    <string name="tab1_rmkj_text_1">点击学习</string>
+
+    <!--Tab1ZaiXianKaoShiActivity-->
+    <string name="tab1_zxks_title">在线考试</string>
+    <string name="tab1_zxks_text_11">题数:%1$d题</string>
+    <string name="tab1_zxks_text_12">时长:%1$d分钟</string>
+    <string name="tab1_zxks_text_21">全部考试</string>
+    <string name="tab1_zxks_text_22">待考试</string>
+    <string name="tab1_zxks_text_23">已考试</string>
+
+    <!--Tab1ZaiXianKaoShiDetailActivity-->
+    <string name="tab1_zxks_detail_text_11">提示&#160;:&#160;</string>
+    <string name="tab1_zxks_detail_text_12">考试时间%1$d分钟，已考时间&#160;:&#160;%2$s</string>
+    <string name="tab1_zxks_detail_text_131">%1$s单选题(每题%2$d分，共%3$d分)</string>
+    <string name="tab1_zxks_detail_text_132">%1$s多选题(每题%2$d分，共%3$d分)</string>
+    <string name="tab1_zxks_detail_text_133">%1$s判断题(每题%2$d分，共%3$d分)</string>
+    <string name="tab1_zxks_detail_text_134">一、</string>
+    <string name="tab1_zxks_detail_text_135">二、</string>
+    <string name="tab1_zxks_detail_text_136">三、</string>
+    <string name="tab1_zxks_detail_text_137">%1$s填空题(每题%2$d分，共%3$d分)</string>
+    <string name="tab1_zxks_detail_text_138">四、</string>
+    <string name="tab1_zxks_detail_text_14">已做(&#160;%1$s&#160;)/总题(&#160;%2$d&#160;)</string>
+    <string name="tab1_zxks_detail_text_21">交卷</string>
+    <string name="tab1_zxks_detail_text_22">上一题</string>
+    <string name="tab1_zxks_detail_text_23">下一题</string>
+    <string name="tab1_zxks_detail_text_31">已经是第一题了</string>
+    <string name="tab1_zxks_detail_text_32">已经是最后一题了</string>
+    <string name="tab1_zxks_detail_text_33">操作失败</string>
+    <string name="tab1_zxks_detail_text_41">%1$s.%2$s</string>
+    <string name="tab1_zxks_detail_text_51">交卷成功</string>
+    <string name="tab1_zxks_detail_text_52">交卷失败</string>
+    <string name="tab1_zxks_detail_text_61">很抱歉，考试时间已到！</string>
+    <string name="tab1_zxks_detail_text_71">请输入答案</string>
+
+    <!--Tab1ZaiXianKaoShiFinishActivity-->
+    <string name="tab1_zxks_finish_text_11">错题(&#160;%1$s&#160;)/总题(&#160;%2$d&#160;)</string>
+    <string name="tab1_zxks_finish_text_21">选择答案&#160;:&#160;%1$s</string>
+    <string name="tab1_zxks_finish_text_22">正确答案&#160;:&#160;%1$s</string>
+    <string name="tab1_zxks_finish_text_23">答题答案&#160;:&#160;%1$s</string>
+
+    <!--Tab1WoDeKaoShiActivity-->
+    <string name="tab1_wdks_title">我的考试</string>
+    <string name="tab1_wdks_text_11">已做%1$s题/共%2$s题</string>
+    <string name="tab1_wdks_text_12">用时%1$d分钟</string>
+
+    <!--Tab1KaoShiChengJiActivity-->
+    <string name="tab1_kscj_title">考试成绩</string>
+    <string name="tab1_kscj_text_11">我的成绩</string>
+    <string name="tab1_kscj_text_12">分</string>
+    <string name="tab1_kscj_text_13">考试成绩详情</string>
+    <string name="tab1_kscj_text_14">单选题</string>
+    <string name="tab1_kscj_text_15">共%1$s题，答对%2$s题，正确率%3$s</string>
+    <string name="tab1_kscj_text_16">多选题</string>
+    <string name="tab1_kscj_text_17">判断题</string>
+    <string name="tab1_kscj_text_2">查看考卷</string>
+
+    <!--Tab1XueXiPaiHangActivity-->
+    <string name="tab1_xxph_title">学习排行</string>
+    <string name="tab1_xxph_text_11">第</string>
+    <string name="tab1_xxph_text_12">名</string>
+    <string name="tab1_xxph_text_13">总计</string>
+    <string name="tab1_xxph_text_14">小时</string>
+    <string name="tab1_xxph_text_21">党组织&#160;:&#160;%1$s</string>
+    <string name="tab1_xxph_text_22">小时</string>
+
+    <!--Tab1ZaiXianZiXunDetailActivity-->
+    <string name="tab1_zxzx_detail_text_11">回复</string>
+
+    <!--Tab1ZaiXianZiXunAddActivity-->
+    <string name="tab1_zxzx_add_text_11">主&#160;&#160;&#160;&#160;&#160;&#160;&#160;题&#160;:&#160;</string>
+    <string name="tab1_zxzx_add_text_12">请填写主题</string>
+    <string name="tab1_zxzx_add_text_21">咨询对象&#160;:&#160;</string>
+    <string name="tab1_zxzx_add_text_22">请选择咨询对象</string>
+    <string name="tab1_zxzx_add_text_31">咨询内容&#160;:&#160;</string>
+    <string name="tab1_zxzx_add_text_32">请输入咨询内容&#8230;</string>
+    <string name="tab1_zxzx_add_text_41">提交</string>
+    <string name="tab1_zxzx_add_text_42">提交成功</string>
+    <string name="tab1_zxzx_add_text_43">提交失败</string>
+
+    <!--Tab1DangFeiJiaoNaActivity-->
+    <string name="tab1_dfjn_text_11">所在党组织</string>
+    <string name="tab1_dfjn_text_12">请选择所在党组织</string>
+    <string name="tab1_dfjn_text_21">姓名</string>
+    <string name="tab1_dfjn_text_22">请输入姓名</string>
+    <string name="tab1_dfjn_text_31">缴费时间</string>
+    <string name="tab1_dfjn_text_32">请选择缴费时间</string>
+    <string name="tab1_dfjn_text_41">缴纳基数</string>
+    <string name="tab1_dfjn_text_42">（工资收入）</string>
+    <string name="tab1_dfjn_text_43">请输入缴纳基数</string>
+    <string name="tab1_dfjn_text_46">请选择党员类型</string>
+    <string name="tab1_dfjn_text_51">应缴党费</string>
+    <string name="tab1_dfjn_text_52">¥%1$s</string>
+    <string name="tab1_dfjn_text_6">在线缴费</string>
+    <string name="tab1_dfjn_text_71">获取应缴党费失败</string>
+    <string name="tab1_dfjn_text_72">生成订单失败</string>
+    <string name="tab1_dfjn_text_73">缴费金额不正确，请重新输入缴纳基数</string>
+
+    <!--Tab1DangFeiJiaoNaPayActivity-->
+    <string name="tab1_dfjn_pay_title">支付方式</string>
+    <string name="tab1_dfjn_pay_text_11">待缴党费金额&#160;:&#160;</string>
+    <string name="tab1_dfjn_pay_text_12">¥%1$s</string>
+    <string name="tab1_dfjn_pay_text_21">支付宝支付</string>
+    <string name="tab1_dfjn_pay_text_22">使用支付宝进行付款</string>
+    <string name="tab1_dfjn_pay_text_23">银联支付</string>
+    <string name="tab1_dfjn_pay_text_24">使用银联进行付款</string>
+    <string name="tab1_dfjn_pay_text_3">确认支付</string>
+    <string name="tab1_dfjn_pay_text_41">请先安装支付宝客户端！</string>
+    <string name="tab1_dfjn_pay_text_42">付款金额不能为0</string>
+    <string name="tab1_dfjn_pay_text_43">金额必须小于10,000,000</string>
+    <string name="tab1_dfjn_pay_text_44">只可补缴6个月前的党费</string>
+    <string name="tab1_dfjn_pay_text_45">请先安装云闪付客户端！</string>
+    <string name="tab1_dfjn_pay_text_46">党员类型</string>
+    <string name="tab1_dfjn_pay_text_47">请选择党员类型</string>
+    <string name="tab1_main_3_text_15">党员类型</string>
+
+    <!--Tab1DangFeiJiaoNaResultActivity-->
+    <string name="tab1_dfjn_result_text_11">支付成功</string>
+    <string name="tab1_dfjn_result_text_21">所在党组织</string>
+    <string name="tab1_dfjn_result_text_22">姓名</string>
+    <string name="tab1_dfjn_result_text_23">缴费时间</string>
+
+    <!--Main2Fragment-->
+    <string name="main_2_text_11">党员信息</string>
+    <string name="main_2_text_12">志愿服务</string>
+    <string name="main_2_text_13">积分管理</string>
+    <string name="main_2_text_14">微心愿</string>
+    <string name="main_2_text_21">志愿者风采</string>
+    <string name="main_2_text_22">更多+</string>
+    <string name="main_2_text_3">积分%1$s分</string>
+    <string name="main_2_text_41">志愿服务</string>
+    <string name="main_2_text_42">更多+</string>
+    <string name="main_2_text_51">您已提交申请，</string>
+    <string name="main_2_text_52">正在%1$s中！</string>
+    <string name="main_2_text_53">审核</string>
+    <string name="main_2_text_61">您已通过申请，</string>
+    <string name="main_2_text_62">无法%1$s申请！</string>
+    <string name="main_2_text_63">重复</string>
+
+    <!--Tab2DangYuanXinXiActivity-->
+    <string name="tab2_dyxx_text_11">现属党支部&#160;:&#160;%1$s</string>
+    <string name="tab2_dyxx_text_21">身份证</string>
+    <string name="tab2_dyxx_text_22">性别</string>
+    <string name="tab2_dyxx_text_23">民族</string>
+    <string name="tab2_dyxx_text_24">籍贯</string>
+    <string name="tab2_dyxx_text_25">文化程度</string>
+    <string name="tab2_dyxx_text_26">联系方式</string>
+    <string name="tab2_dyxx_text_27">二维码</string>
+    <string name="tab2_dyxx_text_31">志愿者信息</string>
+    <string name="tab2_dyxx_text_32">服务意向&#160;:&#160;</string>
+    <string name="tab2_dyxx_text_33">志愿宣言&#160;:&#160;</string>
+
+    <!--Tab2ZhiYuanFuWuActivity-->
+    <string name="tab2_zyfw_text_11">志愿活动</string>
+    <string name="tab2_zyfw_text_12">我的活动</string>
+    <string name="tab2_zyfw_text_21">活动日期&#160;:&#160;%1$s</string>
+    <string name="tab2_zyfw_text_22">报名人数&#160;:&#160;%1$s</string>
+    <string name="tab2_zyfw_text_23">积分&#160;:&#160;%1$s分</string>
+    <string name="tab2_zyfw_text_31">报名中</string>
+    <string name="tab2_zyfw_text_32">进行中</string>
+    <string name="tab2_zyfw_text_33">已结束</string>
+    <string name="tab2_zyfw_text_4">推荐活动</string>
+    <string name="tab2_zyfw_text_5">发布\n志愿活动</string>
+    <string name="tab2_zyfw_text_61">参与日期&#160;:&#160;%1$s</string>
+    <string name="tab2_zyfw_text_62">积分&#160;:&#160;%1$s</string>
+
+    <!--Tab2ZhiYuanFuWuAddActivity-->
+    <string name="tab2_zyfw_add_title">发布志愿活动</string>
+    <string name="tab2_zyfw_add_text_11">活动名称</string>
+    <string name="tab2_zyfw_add_text_12">请输入活动名称</string>
+    <string name="tab2_zyfw_add_text_21">活动开始时间</string>
+    <string name="tab2_zyfw_add_text_22">请选择开始时间</string>
+    <string name="tab2_zyfw_add_text_31">活动结束时间</string>
+    <string name="tab2_zyfw_add_text_32">请选择结束时间</string>
+    <string name="tab2_zyfw_add_text_41">活动参与范围</string>
+    <string name="tab2_zyfw_add_text_42">请选择参与范围</string>
+    <string name="tab2_zyfw_add_text_51">活动服务类型</string>
+    <string name="tab2_zyfw_add_text_52">请选择服务类型</string>
+    <string name="tab2_zyfw_add_text_61">需求人数</string>
+    <string name="tab2_zyfw_add_text_62">请输入人数</string>
+    <string name="tab2_zyfw_add_text_71">联系人</string>
+    <string name="tab2_zyfw_add_text_72">请输入联系人姓名</string>
+    <string name="tab2_zyfw_add_text_81">联系方式</string>
+    <string name="tab2_zyfw_add_text_82">请输入联系方式</string>
+    <string name="tab2_zyfw_add_text_91">活动积分</string>
+    <string name="tab2_zyfw_add_text_92">请输入活动积分</string>
+    <string name="tab2_zyfw_add_text_101">活动地点</string>
+    <string name="tab2_zyfw_add_text_102">请输入活动地点</string>
+    <string name="tab2_zyfw_add_text_111">活动内容</string>
+    <string name="tab2_zyfw_add_text_112">请输入活动内容</string>
+    <string name="tab2_zyfw_add_text_121">上传图片</string>
+    <string name="tab2_zyfw_add_text_122">(可上传一张与活动主题相关的图片)</string>
+    <string name="tab2_zyfw_add_text_123">请添加图片</string>
+    <string name="tab2_zyfw_add_text_131">提交</string>
+    <string name="tab2_zyfw_add_text_132">提交成功</string>
+    <string name="tab2_zyfw_add_text_133">提交失败</string>
+
+    <!--Tab2ZhiYuanHuoDongDetailActivity-->
+    <string name="tab2_zyhd_detail_title">志愿活动详情</string>
+    <string name="tab2_zyhd_detail_text_11">基本信息</string>
+    <string name="tab2_zyhd_detail_text_12">活动时间&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_13">活动类型&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_14">需求人数&#160;:&#160;%1$d人</string>
+    <string name="tab2_zyhd_detail_text_15">报名人数&#160;:&#160;%1$s人</string>
+    <string name="tab2_zyhd_detail_text_16">联&#160;系&#160;人&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_17">联系方式&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_18">活动积分&#160;:&#160;%1$s分</string>
+    <string name="tab2_zyhd_detail_text_19">活动地点&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_110">活动内容&#160;:&#160;%1$s</string>
+    <string name="tab2_zyhd_detail_text_21">报名信息</string>
+    <string name="tab2_zyhd_detail_text_31">报名岗位</string>
+    <string name="tab2_zyhd_detail_text_32">请输入报名岗位</string>
+    <string name="tab2_zyhd_detail_text_41">联系方式</string>
+    <string name="tab2_zyhd_detail_text_42">请输入联系方式</string>
+    <string name="tab2_zyhd_detail_text_51">自我描述</string>
+    <string name="tab2_zyhd_detail_text_52">请输入自我描述</string>
+    <string name="tab2_zyhd_detail_text_61">我要报名</string>
+    <string name="tab2_zyhd_detail_text_62">我已报名</string>
+    <string name="tab2_zyhd_detail_text_63">报名成功</string>
+    <string name="tab2_zyhd_detail_text_64">报名失败</string>
+    <string name="tab2_zyhd_detail_text_71">受报名区域限制，您无法报名！</string>
+
+    <!--Tab2ZhiYuanZheAddActivity-->
+    <string name="tab2_zyz_add_title">加入志愿者</string>
+    <string name="tab2_zyz_add_text_11">姓名</string>
+    <string name="tab2_zyz_add_text_12">请输入姓名</string>
+    <string name="tab2_zyz_add_text_21">所处党组织</string>
+    <string name="tab2_zyz_add_text_22">请选择所处党组织</string>
+    <string name="tab2_zyz_add_text_31">服务意向</string>
+    <string name="tab2_zyz_add_text_32">请选择服务意向</string>
+    <string name="tab2_zyz_add_text_41">志愿宣言</string>
+    <string name="tab2_zyz_add_text_42">请填写志愿宣言</string>
+    <string name="tab2_zyz_add_text_51">个人风采</string>
+    <string name="tab2_zyz_add_text_52">请添加个人风采图片</string>
+    <string name="tab2_zyz_add_text_61">提交</string>
+    <string name="tab2_zyz_add_text_62">提交成功</string>
+    <string name="tab2_zyz_add_text_63">提交失败</string>
+
+    <!--Tab2ZhiYuanZheFengCaiActivity-->
+    <string name="tab2_zyzfc_title">志愿者风采</string>
+    <string name="tab2_zyzfc_text_11">所在党组织&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_text_12">积分&#160;:&#160;%1$s分</string>
+    <string name="tab2_zyzfc_text_13">NO.%1$s</string>
+
+    <!--Tab2ZhiYuanZheFengCaiDetailActivity-->
+    <string name="tab2_zyzfc_detail_text_11">姓名&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_12">年龄&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_13">学历&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_14">身高&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_15">籍贯&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_16">职业&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_17">服务时长&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_18">微信号&#160;:&#160;%1$s</string>
+    <string name="tab2_zyzfc_detail_text_19">志愿宣言&#160;:&#160;%1$s</string>
+
+    <!--Tab2ZhiBoActivity-->
+    <string name="tab2_wszb_title">网上直播</string>
+    <string name="tab2_wszb_text_10">sorry，暂无直播！</string>
+    <string name="tab2_wszb_text_11">发起\n网上直播</string>
+    <string name="tab2_wszb_text_12">直播人&#160;:&#160;%1$s</string>
+    <string name="tab2_wszb_text_31">当前直播已经结束</string>
+
+    <!--Tab2ZhiBoAddActivity-->
+    <string name="tab2_wszb_add_text_11">直播名称</string>
+    <string name="tab2_wszb_add_text_12">请输入直播名称</string>
+    <string name="tab2_wszb_add_text_21">直播发起人</string>
+    <string name="tab2_wszb_add_text_22">请输入姓名</string>
+    <string name="tab2_wszb_add_text_31">上传图片</string>
+    <string name="tab2_wszb_add_text_32">(请上传一张与直播主题相关的图片作为直播封面)</string>
+    <string name="tab2_wszb_add_text_33">请添加图片</string>
+    <string name="tab2_wszb_add_text_41">发起直播</string>
+    <string name="tab2_wszb_add_text_42">发起直播成功</string>
+    <string name="tab2_wszb_add_text_43">发起直播失败</string>
+    <string name="tab2_wszb_add_text_51">请点击直播按钮开始直播</string>
+    <string name="tab2_wszb_add_text_52">确定要退出直播吗？</string>
+
+    <!--Tab2JiFenGuanLiActivity-->
+    <string name="tab2_jfgl_text_11">本周积分</string>
+    <string name="tab2_jfgl_text_12">总积分</string>
+    <string name="tab2_jfgl_text_21">活动次数&#160;:&#160;%1$d次</string>
+    <string name="tab2_jfgl_text_22">党组织&#160;:&#160;%1$s次</string>
+    <string name="tab2_jfgl_text_23">分</string>
+    <string name="tab2_jfgl_text_31">积分兑换</string>
+    <string name="tab2_jfgl_text_41">总计</string>
+    <string name="tab2_jfgl_text_42">分</string>
+
+    <!--Tab2JiFenPersonalActivity-->
+    <string name="tab2_jfgl_person_text_11">总分&#160;:&#160;%1$s分</string>
+    <string name="tab2_jfgl_person_text_12">参与活动&#160;:&#160;%1$s次</string>
+    <string name="tab2_jfgl_person_text_13">现属党支部&#160;:&#160;%1$s</string>
+    <string name="tab2_jfgl_person_text_21">组织活动</string>
+    <string name="tab2_jfgl_person_text_22">在线学习</string>
+    <string name="tab2_jfgl_person_text_23">志愿活动</string>
+    <string name="tab2_jfgl_person_text_24">微心愿</string>
+
+    <!--Tab2JiFenDuiHuanActivity-->
+    <string name="tab2_jfdh_text_11">当前积分&#160;:&#160;%1$s</string>
+    <string name="tab2_jfdh_text_21">兑换商品</string>
+    <string name="tab2_jfdh_text_22">我的兑换</string>
+    <string name="tab2_jfdh_text_31">积分</string>
+    <string name="tab2_jfdh_text_32">库存量&#160;:&#160;%1$d</string>
+    <string name="tab2_jfdh_text_33">点击兑换</string>
+    <string name="tab2_jfdh_text_41">兑换数量&#160;:&#160;%1$d</string>
+    <string name="tab2_jfdh_text_42">兑换时间&#160;:&#160;%1$s</string>
+    <string name="tab2_jfdh_text_51">您的积分余额不足</string>
+
+    <!--Tab2JiFenDuiHuanDetailActivity-->
+    <string name="tab2_jfdh_detail_text_11">兑换数量&#160;:&#160;</string>
+    <string name="tab2_jfdh_detail_text_12">立即兑换</string>
+    <string name="tab2_jfdh_detail_text_21">恭喜，您已兑换成功！</string>
+    <string name="tab2_jfdh_detail_text_22">请到服务中心进行领取。</string>
+    <string name="tab2_jfdh_detail_text_23">共消耗积分%1$s积分</string>
+    <string name="tab2_jfdh_detail_text_24">查看我的兑换</string>
+    <string name="tab2_jfdh_detail_text_25">兑换失败</string>
+
+    <!--Tab2ErWeiMaActivity-->
+    <string name="tab2_ewm_text_11">党员活动记录信息</string>
+
+    <!--Main3Fragment-->
+    <string name="main_3_text_11">社区动态</string>
+    <string name="main_3_text_12">生活管家</string>
+    <string name="main_3_text_13">政务办理</string>
+    <string name="main_3_text_14">微心愿</string>
+    <string name="main_3_text_15">在线预定</string>
+    <string name="main_3_text_21">社区动态</string>
+    <string name="main_3_text_22">活动视频</string>
+
+    <!--Tab3SheQuDongTaiActivity-->
+    <string name="tab3_sqdt_text_11">%1$s·%2$s</string>
+    <string name="tab3_sqdt_text_12">您已点过赞了</string>
+
+    <!--Tab3ShengHuoGuanJiaActivity-->
+    <string name="tab3_shgj_text_11">水电气缴费</string>
+    <string name="tab3_shgj_text_12">家政服务</string>
+    <string name="tab3_shgj_text_13">维修服务</string>
+    <string name="tab3_shgj_text_14">话费充值</string>
+    <string name="tab3_shgj_text_21">列车查询</string>
+    <string name="tab3_shgj_text_22">航班查询</string>
+    <string name="tab3_shgj_text_23">公交查询</string>
+    <string name="tab3_shgj_text_24">滴滴出行</string>
+    <string name="tab3_shgj_text_31">医疗服务</string>
+    <string name="tab3_shgj_text_32">快递查询</string>
+    <string name="tab3_shgj_text_33">共享单车</string>
+    <string name="tab3_shgj_text_34">更多</string>
+
+    <!--Tab3ShengHuoGuanJiaActivity-->
+    <string name="tab3_zwbl_text_11">警务服务</string>
+    <string name="tab3_zwbl_text_12">民政服务</string>
+    <string name="tab3_zwbl_text_13">创业就业</string>
+    <string name="tab3_zwbl_text_14">社会保障</string>
+    <string name="tab3_zwbl_text_21">卫生计生</string>
+    <string name="tab3_zwbl_text_22">市场监督</string>
+    <string name="tab3_zwbl_text_23">社保医保</string>
+    <string name="tab3_zwbl_text_24">证件办理</string>
+    <string name="tab3_zwbl_text_31">房屋产权</string>
+    <string name="tab3_zwbl_text_32">法律维权</string>
+    <string name="tab3_zwbl_text_33">户籍护照</string>
+    <string name="tab3_zwbl_text_34">更多</string>
+
+    <!--Tab3WeiXinYuanActivity-->
+    <string name="tab3_wxy_text_11">全部心愿</string>
+    <string name="tab3_wxy_text_12">我的心愿</string>
+    <string name="tab3_wxy_text_21">全部</string>
+    <string name="tab3_wxy_text_22">待认领</string>
+    <string name="tab3_wxy_text_23">未完成</string>
+    <string name="tab3_wxy_text_24">已完成</string>
+    <string name="tab3_wxy_text_31">发布日期&#160;:&#160;%1$s</string>
+    <string name="tab3_wxy_text_41">发布心愿</string>
+
+    <!--Tab3WeiXinYuanAddActivity-->
+    <string name="tab3_wxy_add_title">发心愿</string>
+    <string name="tab3_wxy_add_text_11">头像</string>
+    <string name="tab3_wxy_add_text_12">请设置头像</string>
+    <string name="tab3_wxy_add_text_21">姓名</string>
+    <string name="tab3_wxy_add_text_22">请输入姓名</string>
+    <string name="tab3_wxy_add_text_31">年龄</string>
+    <string name="tab3_wxy_add_text_32">请输入年龄</string>
+    <string name="tab3_wxy_add_text_41">性别</string>
+    <string name="tab3_wxy_add_text_42">请选择性别</string>
+    <string name="tab3_wxy_add_text_51">地址</string>
+    <string name="tab3_wxy_add_text_52">请输入地址</string>
+    <string name="tab3_wxy_add_text_61">心愿标题</string>
+    <string name="tab3_wxy_add_text_62">请输入心愿标题</string>
+    <string name="tab3_wxy_add_text_71">心愿详情</string>
+    <string name="tab3_wxy_add_text_72">请输入心愿详情</string>
+    <string name="tab3_wxy_add_text_81">提交心愿</string>
+    <string name="tab3_wxy_add_text_82">提交心愿成功</string>
+    <string name="tab3_wxy_add_text_83">提交心愿失败</string>
+    <string name="tab3_wxy_add_text_91">联系方式</string>
+    <string name="tab3_wxy_add_text_92">请输入联系方式</string>
+
+    <!--Tab3WeiXinYuanDetailActivity-->
+    <string name="tab3_wxy_detail_text_11">心愿&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_12">发布日期&#160;:&#160;%1$s</string>
+    <string name="tab3_wxy_detail_text_13">心愿状态&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_21">心愿人信息</string>
+    <string name="tab3_wxy_detail_text_22">姓&#160;&#160;名&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_23">年&#160;&#160;龄&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_24">性&#160;&#160;别&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_25">地&#160;&#160;址&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_31">认领心愿</string>
+    <string name="tab3_wxy_detail_text_32">认领心愿成功</string>
+    <string name="tab3_wxy_detail_text_33">认领心愿失败</string>
+    <string name="tab3_wxy_detail_text_34">心愿完成</string>
+    <string name="tab3_wxy_detail_text_35">心愿完成成功</string>
+    <string name="tab3_wxy_detail_text_36">心愿完成失败</string>
+    <string name="tab3_wxy_detail_text_41">认领人信息</string>
+    <string name="tab3_wxy_detail_text_42">姓&#160;&#160;名&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_43">所属党组织&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_44">所在公司&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_45">手机号码&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_46">个人说明&#160;:&#160;</string>
+    <string name="tab3_wxy_detail_text_51">完成情况</string>
+    <string name="tab3_wxy_detail_text_52">完成结果</string>
+    <string name="tab3_wxy_detail_text_53">请输入完成结果</string>
+    <string name="tab3_wxy_detail_text_61">上传图片</string>
+    <string name="tab3_wxy_detail_text_62">（最多可上传5张图片）</string>
+    <string name="tab3_wxy_detail_text_63">最多可上传5张图片</string>
+    <string name="tab3_wxy_detail_text_64">请添加图片</string>
+
+    <!--Tab3ZaiXianYuDingAddActivity-->
+    <string name="tab3_zxyd_add_text_11">开始日期</string>
+    <string name="tab3_zxyd_add_text_12">请选择开始日期</string>
+    <string name="tab3_zxyd_add_text_21">结束日期</string>
+    <string name="tab3_zxyd_add_text_22">请选择结束日期</string>
+    <string name="tab3_zxyd_add_text_31">活动室</string>
+    <string name="tab3_zxyd_add_text_32">请选择活动室</string>
+    <string name="tab3_zxyd_add_text_41">预订人</string>
+    <string name="tab3_zxyd_add_text_42">请输入预订人姓名</string>
+    <string name="tab3_zxyd_add_text_51">联系方式</string>
+    <string name="tab3_zxyd_add_text_52">请输入联系方式</string>
+    <string name="tab3_zxyd_add_text_61">预订原因</string>
+    <string name="tab3_zxyd_add_text_62">请输入预订原因</string>
+    <string name="tab3_zxyd_add_text_71">提交预订</string>
+    <string name="tab3_zxyd_add_text_72">提交预订成功</string>
+    <string name="tab3_zxyd_add_text_73">提交预订失败</string>
+
+    <!--Main4Fragment-->
+    <string name="main_4_text_11">我的积分</string>
+    <string name="main_4_text_12">学习时长</string>
+    <string name="main_4_text_13">%1$s小时</string>
+    <string name="main_4_text_21">我的考试</string>
+    <string name="main_4_text_22">我的活动</string>
+    <string name="main_4_text_23">志愿服务</string>
+    <string name="main_4_text_24">微心愿</string>
+    <string name="main_4_text_25">党费缴纳</string>
+    <string name="main_4_text_26">活动签到</string>
+    <string name="main_4_text_27">我的咨询</string>
+    <string name="main_4_text_28">我的举报</string>
+    <string name="main_4_text_29">二维码</string>
+    <string name="main_4_text_31">管理中心</string>
+    <string name="main_4_text_32">党员管理</string>
+    <string name="main_4_text_33">组织管理</string>
+    <string name="main_4_text_34">活动管理</string>
+    <string name="main_4_text_41">退出当前账号</string>
+    <string name="main_4_text_42">确定退出当前账号吗？</string>
+
+    <!--Tab4MessageActivity-->
+    <string name="tab4_message_title">消息</string>
+    <string name="tab4_message_text_11">%1$s分</string>
+    <string name="tab4_message_text_12">%1$s小时</string>
+
+    <!--Tab4DangYuanGuanLiActivity-->
+    <string name="tab4_dygl_title">党员管理</string>
+    <string name="tab4_dygl_text_11">增加</string>
+    <string name="tab4_dygl_text_12">请输入党员姓名</string>
+    <string name="tab4_dygl_text_13">党组织&#160;:&#160;%1$s</string>
+
+    <!--Tab4DangYuanGuanLiAddActivity-->
+    <string name="tab4_dygl_add_title_11">增加党员</string>
+    <string name="tab4_dygl_add_title_12">修改党员</string>
+    <string name="tab4_dygl_add_text_11">头像</string>
+    <string name="tab4_dygl_add_text_12">请选择头像</string>
+    <string name="tab4_dygl_add_text_21">姓名</string>
+    <string name="tab4_dygl_add_text_22">请输入姓名</string>
+    <string name="tab4_dygl_add_text_41">性别</string>
+    <string name="tab4_dygl_add_text_42">请选择性别</string>
+    <string name="tab4_dygl_add_text_51">民族</string>
+    <string name="tab4_dygl_add_text_52">请选择民族</string>
+    <string name="tab4_dygl_add_text_31">出生日期</string>
+    <string name="tab4_dygl_add_text_32">请选择出生日期</string>
+    <string name="tab4_dygl_add_text_61">手机号码</string>
+    <string name="tab4_dygl_add_text_62">请输入手机号码</string>
+    <string name="tab4_dygl_add_text_71">学历</string>
+    <string name="tab4_dygl_add_text_72">请选择学历</string>
+    <string name="tab4_dygl_add_text_81">入党时间</string>
+    <string name="tab4_dygl_add_text_82">请选择入党时间</string>
+    <string name="tab4_dygl_add_text_91">人员类别</string>
+    <string name="tab4_dygl_add_text_92">请选择人员类别</string>
+    <string name="tab4_dygl_add_text_101">是否失联党员</string>
+    <string name="tab4_dygl_add_text_102">请选择是否失联党员</string>
+    <string name="tab4_dygl_add_text_111">是否流动党员</string>
+    <string name="tab4_dygl_add_text_112">请选择是否流动党员</string>
+    <string name="tab4_dygl_add_text_113">外出流向</string>
+    <string name="tab4_dygl_add_text_114">请输入外出流向</string>
+    <string name="tab4_dygl_add_text_121">所在党组织</string>
+    <string name="tab4_dygl_add_text_122">请选择所在党组织</string>
+    <string name="tab4_dygl_add_text_131">保存</string>
+    <string name="tab4_dygl_add_text_132">删除</string>
+    <string name="tab4_dygl_add_text_133">增加党员成功</string>
+    <string name="tab4_dygl_add_text_134">增加党员失败</string>
+    <string name="tab4_dygl_add_text_135">删除党员成功</string>
+    <string name="tab4_dygl_add_text_136">删除党员失败</string>
+    <string name="tab4_dygl_add_text_137">修改党员成功</string>
+    <string name="tab4_dygl_add_text_138">修改党员失败</string>
+    <string name="tab4_dygl_add_text_141">确定要删除该党员吗？</string>
+    <string name="tab4_dygl_add_text_151">请选择小于当前的日期</string>
+
+    <!--Tab4DangZuZhiGuanLiActivity-->
+    <string name="tab4_dzzgl_title">党组织管理</string>
+    <string name="tab4_dzzgl_text_11">增加</string>
+    <string name="tab4_dzzgl_text_12">请输入党组织名称</string>
+    <string name="tab4_dzzgl_text_21">下属党组织&#160;:&#160;%1$s</string>
+    <string name="tab4_dzzgl_text_22">党员&#160;:&#160;%1$s</string>
+
+    <!--Tab4DangZuZhiGuanLiAddActivity-->
+    <string name="tab4_dzzgl_add_title_11">增加党组织</string>
+    <string name="tab4_dzzgl_add_title_12">修改党组织</string>
+    <string name="tab4_dzzgl_add_text_11">组织名称</string>
+    <string name="tab4_dzzgl_add_text_12">请输入组织名称</string>
+    <string name="tab4_dzzgl_add_text_21">组织属性</string>
+    <string name="tab4_dzzgl_add_text_22">请选择组织属性</string>
+    <string name="tab4_dzzgl_add_text_31">上级党组织</string>
+    <string name="tab4_dzzgl_add_text_32">请选择上级党组织</string>
+    <string name="tab4_dzzgl_add_text_41">所在单位</string>
+    <string name="tab4_dzzgl_add_text_42">请输入单位名称</string>
+    <string name="tab4_dzzgl_add_text_51">联系电话</string>
+    <string name="tab4_dzzgl_add_text_52">请输入电话</string>
+    <string name="tab4_dzzgl_add_text_61">通讯地址</string>
+    <string name="tab4_dzzgl_add_text_62">请输入地址</string>
+    <string name="tab4_dzzgl_add_text_71">行业类型</string>
+    <string name="tab4_dzzgl_add_text_72">请选择行业类型</string>
+    <string name="tab4_dzzgl_add_text_73">所属机构</string>
+    <string name="tab4_dzzgl_add_text_74">请选择所属机构</string>
+    <string name="tab4_dzzgl_add_text_81">单位简介</string>
+    <string name="tab4_dzzgl_add_text_82">请填写单位简介</string>
+    <string name="tab4_dzzgl_add_text_91">确定要删除党组织吗？</string>
+    <string name="tab4_dzzgl_add_text_92">增加党组织成功</string>
+    <string name="tab4_dzzgl_add_text_93">增加党组织失败</string>
+    <string name="tab4_dzzgl_add_text_94">删除党组织成功</string>
+    <string name="tab4_dzzgl_add_text_95">删除党组织失败</string>
+    <string name="tab4_dzzgl_add_text_96">修改党组织成功</string>
+    <string name="tab4_dzzgl_add_text_97">修改党组织失败</string>
+
+    <!--Tab4HuoDongGuanLiActivity-->
+    <string name="tab4_hdgl_title">活动管理</string>
+    <string name="tab4_hdgl_text_11">增加</string>
+    <string name="tab4_hdgl_text_12">请输入活动名称</string>
+
+    <!--Tab4HuoDongGuanLiAddActivity-->
+    <string name="tab4_hdgl_add_title">增加活动</string>
+    <string name="tab4_hdgl_add_text_11">活动主题</string>
+    <string name="tab4_hdgl_add_text_12">请输入活动主题</string>
+    <string name="tab4_hdgl_add_text_21">活动类型</string>
+    <string name="tab4_hdgl_add_text_22">请选择活动类型</string>
+    <string name="tab4_hdgl_add_text_31">活动时间</string>
+    <string name="tab4_hdgl_add_text_32">请选择活动时间</string>
+    <string name="tab4_hdgl_add_text_41">活动地点</string>
+    <string name="tab4_hdgl_add_text_42">请输入活动地点</string>
+    <string name="tab4_hdgl_add_text_51">应到人员</string>
+    <string name="tab4_hdgl_add_text_52">请输入人数</string>
+    <string name="tab4_hdgl_add_text_61">活动简介</string>
+    <string name="tab4_hdgl_add_text_62">请填写活动简介</string>
+
+    <!--SettingActivity-->
+    <string name="setting_title">设置</string>
+    <string name="setting_text_1">退出登录</string>
+    <string name="setting_text_2">确定退出登录吗?</string>
+    <string name="setting_text_3">关于我们</string>
+    <string name="setting_text_4">清除缓存</string>
+    <string name="setting_text_5">用户协议</string>
+    <string name="setting_text_6">修改密码</string>
+    <string name="setting_text_7">确定清空缓存?</string>
+    <string name="setting_text_8">当前缓存%1$s</string>
+    <string name="setting_text_9">检测升级</string>
+    <string name="setting_text_91">您的版本是最新的</string>
+
+    <!--ModifyPwdActivity-->
+    <string name="modify_pwd_title">修改密码</string>
+    <string name="modify_pwd_text_11">旧密码</string>
+    <string name="modify_pwd_text_12">请输入旧密码</string>
+    <string name="modify_pwd_text_21">新密码</string>
+    <string name="modify_pwd_text_22">请输入新密码</string>
+    <string name="modify_pwd_text_31">重复密码</string>
+    <string name="modify_pwd_text_32">请再次输入新密码</string>
+    <string name="modify_pwd_text_4">确认提交</string>
+    <string name="modify_pwd_text_51">密码为(6&#8211;10位字符)</string>
+    <string name="modify_pwd_text_52">两次输入密码不一致</string>
+    <string name="modify_pwd_text_61">修改密码成功</string>
+    <string name="modify_pwd_text_62">修改密码失败</string>
+
+    <!--ChoiceSexActivity-->
+    <string name="choice_sex_title">性别</string>
+    <string name="choice_sex_text_1">男</string>
+    <string name="choice_sex_text_2">女</string>
+    <string name="choice_sex_text_3">修改成功</string>
+    <string name="choice_sex_text_4">修改失败</string>
+
+    <!--ChoiceDangZuZhiActivity-->
+    <string name="choice_dang_zu_zhi_title">咨询对象</string>
+    <string name="choice_dang_zu_zhi_text_1">请输入党组织名称</string>
+    <string name="choice_dang_zu_zhi_text_2">搜索</string>
+
+    <!--ChoiceDzzOrgActivity-->
+    <string name="choice_dzz_org_title">所属机构</string>
+    <string name="choice_dzz_org_text_1">请输入机构名称</string>
+    <string name="choice_dzz_org_text_2">搜索</string>
+
+    <!--PictureDisplayActivity-->
+    <string name="picture_display_image_url_error">错误的图片地址</string>
+    <string name="picture_display_image_download_fail">保存图片失败</string>
+    <string name="picture_display_image_download_success">图片保存至&#160;%1$s</string>
+
+    <!--ScannerActivity-->
+    <string name="scanner_text_11">解析失败，请重新扫描</string>
+    <string name="scanner_text_21">签到成功</string>
+    <string name="scanner_text_22">签到失败</string>
+
+    <!-- ImageFolderPopUpWindow -->
+    <string name="all_photo">所有图片</string>
+    <string name="photo_size_format">%1$s张</string>
+    <string name="preview">预览</string>
+    <string name="user_album">相册</string>
+    <string name="user_photo">相片</string>
+    <string name="add_photo_hint">请添加相片</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="photo_category">相册分类</string>
+
+    <string name="payment_ali_error_1">支付失败:支付结果解析错误</string>
+    <string name="payment_ali_error_2">支付处理中&#8230;</string>
+    <string name="payment_ali_error_3">支付失败:网络连接错误</string>
+    <string name="payment_ali_error_4">支付错误:支付码支付失败</string>
+    <string name="payment_success">支付成功</string>
+    <string name="payment_failure">支付失败</string>
+    <string name="payment_cancel">支付取消</string>
+    <string name="payment_deny">支付被拒绝</string>
+    <string name="payment_unknown">支付失败</string>
+</resources>

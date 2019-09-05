@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/multi_loading_icon"
+    android:fromDegrees="0.0"
+    android:pivotX="50.0%"
+    android:pivotY="50.0%"
+    android:toDegrees="1080.0" >
+
+</rotate>
+
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <rotate
+            android:drawable="@drawable/empty_loading_icon"
+            android:fromDegrees="0.0"
+            android:pivotX="50.0%"
+            android:pivotY="50.0%"
+            android:toDegrees="1080.0" >
+            
+            <shape
+                android:innerRadiusRatio="3"
+                android:shape="ring"
+                android:thickness="3dp"
+                android:useLevel="false" >
+                <gradient
+                    android:centerColor="@color/red"
+                    android:centerX="0.50"
+                    android:centerY="0.50"
+                    android:endColor="#ffffff"
+                    android:startColor="#f76708"
+                    android:type="sweep"
+                    android:useLevel="false" />
+            </shape>
+            
+        </rotate>
+    </item>
+
+</layer-list> -->

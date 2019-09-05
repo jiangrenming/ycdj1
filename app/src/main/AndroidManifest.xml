@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cl.dangjian">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+   <!-- <uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.cl.dangjian.permission.JPUSH_MESSAGE" />
+    <permission android:name="com.cl.dangjian.permission.JPUSH_MESSAGE" android:protectionLevel="signature" />
+
+    <!--==============================银联支付================================-->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc.hce"/>
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.AppTheme.Light.Translucent">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1XinXiZiXunActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1DangJianDongTaiDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1TongZhiGongGaoDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZuZhiShengHuoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZuZhiShengHuoHuoDongDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1WoDeHuoDongActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianXueXiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianXueXiDetailActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1JiaoLiuHuDongActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1HuDongPingLunActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1HuDongPingLunDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1HuDongPingLunDetailReplyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1HuDongPingLunDetailReplyDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianTouPiaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianTouPiaoDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianZiXunActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianZiXunDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianZiXunAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1WoDeZiXunActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1WoDeJuBaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1WoDeJuBaoDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ReMenKeJianActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1XueXiPaiHangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianKaoShiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1ZaiXianKaoShiDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.Tab1ZaiXianKaoShiFinishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1KaoShiChengJiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1WoDeKaoShiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1DangFeiJiaoNaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1DangFeiJiaoNaPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab1DangFeiJiaoNaResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2DangYuanXinXiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanFuWuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanFuWuAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2WoDeFuWuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2TuiJianHuoDongActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanHuoDongDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanZheAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanZheFengCaiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiYuanZheFengCaiDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2JiFenGuanLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2JiFenPersonalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2JiFenDuiHuanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2JiFenDuiHuanDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiBoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ZhiBoAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab2ErWeiMaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3SheQuDongTaiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3SheQuDongTaiDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ShengHuoGuanJiaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ZhengWuBanLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3WeiXinYuanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3WeiXinYuanAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3WeiXinYuanDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3WoDeWeiXinYuanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ZaiXianYuDingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ZaiXianYuDingAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ZaiXianYuDingPlaceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab3ZaiXianYuDingDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <activity
+            android:name=".activity.Tab4MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4MessageDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4DangYuanGuanLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4DangYuanGuanLiAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4DangZuZhiGuanLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4DangZuZhiGuanLiAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4HuoDongGuanLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.Tab4HuoDongGuanLiAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <activity
+            android:name=".activity.LiveStreamingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.NEVideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <activity
+            android:name=".activity.CommonH5Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.ModifyPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.ChoiceSexActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.ChoiceDangZuZhiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.ChoiceOptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activity.ChoiceDzzOrgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <activity
+            android:name=".activity.PictureDisplayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light" />
+        <activity
+            android:name=".activity.MultiImageSelectorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light" />
+        <activity
+            android:name="com.cl.dangjian.zxing.ScannerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.cl.dangjian.zxing.QRCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <!--党员类型-->
+        <activity
+            android:name=".activity.Tab1DangFeiJiaoNaDangYuanLeiXingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppTheme.Light"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <!-- 支付宝 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+
+        <!-- 此部分代码需要移植到您的 app 下的 manifest，并且 authorities 指定您的包名。例如：包名.FileProvider -->
+       <!-- <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.cl.dangjian.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path" />
+        </provider>-->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path" />
+        </provider>
+
+        <!-- Glide缓存目录配置 -->
+        <meta-data
+            android:name="com.cl.dangjian.app.MyGlideModule"
+            android:value="GlideModule" />
+
+
+        <!--=============================================JPush 开始====================================================-->
+        <!-- Rich push 核心功能 since 2.0.6-->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:theme="@style/MyDialogStyle"
+            android:exported="false">
+        </activity>
+
+        <!-- Required SDK核心功能-->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.cl.dangjian" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK 核心功能-->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:process=":mult"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+                <category android:name="com.cl.dangjian" />
+            </intent-filter>
+
+        </service>
+
+        <!-- Required SDK核心功能-->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />   <!--Required  显示通知栏 -->
+                <category android:name="com.cl.dangjian" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能-->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" android:exported="false"/>
+
+        <!-- User defined.  For test only  用户自定义的广播接收器-->
+        <receiver
+            android:name="com.cl.dangjian.push.PushReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!--Required  用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!--Required  用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!--Required  用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /><!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.cl.dangjian" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="33234bc8bdbf50beee1fb9f0" /> <!--  </>值来自开发者平台取得的AppKey-->
+        <!--=============================================JPush 结束====================================================-->
+
+        <!--==========================================银联支付 开始================================================-->
+        <uses-library
+            android:name="org.simalliance.openmobileapi"
+            android:required="false"/>
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.unionpay.UPPayWapActivity"
+            android:configChanges="orientation|keyboardHidden|fontScale"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <!--===========================================银联支付 结束================================================-->
+
+        <!-- 高德地图 配置开始-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="7bfede4765237bea8aace4dbf0675eaa" />
+        <service android:name="com.amap.api.location.APSService" />
+        <!-- 高德地图 配置结束-->
+        <service android:name=".update.DownloadService"/>
+    </application>
+
+</manifest>

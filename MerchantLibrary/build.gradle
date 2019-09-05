@@ -1,0 +1,87 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
+
+    defaultConfig {
+        //最小兼容版本
+        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
+        //目标编译版本
+        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
+        //打包的版本号
+        versionCode APP_VERSION_CODE as int
+        //打包的版本名字
+        versionName APP_VERSION_NAME
+        //开启分包
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            //自定义是否测试属性，控制项目代码的一些测试属性。true：代表是测试  false：代表非测试
+            buildConfigField "boolean", "IS_TEST", RELEASE_IS_TEST
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            //自定义是否测试属性，控制项目代码的一些测试属性。true：代表是测试  false：代表非测试
+            buildConfigField "boolean", "IS_TEST", DEBUG_IS_TEST
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.android.support:appcompat-v7:${SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:design:${SUPPORT_LIBRARY_VERSION}"
+    compile 'io.reactivex:rxjava:1.2.7'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.2'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.27'
+    //    compile 'me.majiajie:pager-bottom-tab-strip:2.0.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.google.android:flexbox:0.2.6'
+    //    compile 'com.github.iwgang:simplifyspan:2.0'
+    //    compile 'com.facebook.rebound:rebound:0.3.8'
+    //    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3'
+    //    compile 'com.getui:sdk:2.10.2.1'
+    //    compile project(':PermissionsDispatcher')
+
+
+    compile('com.github.hotchemi:permissionsdispatcher:2.3.1') {
+        // if you don't use android.app.Fragment you can exclude support for them
+        exclude module: "support-v13"
+    }
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.3.1'
+    //    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    //Optional: see how to use the utility.
+    //    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    compile 'com.jaeger.statusbarutil:library:1.4.0'
+    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    //    compile 'com.github.codbking:PickTime:v1.0.1'
+    //    compile 'com.r0adkll:slidableactivity:2.0.5'
+    //    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    //    compile 'com.bigkoo:convenientbanner:2.0.5'
+    //    compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.1'
+    //    compile "com.android.support:support-emoji-appcompat:26.0.0-beta1"
+    //    compile "com.android.support:support-emoji-bundled:26.0.0-beta1"
+    //    compile 'com.android.support:support-emoji:26.0.0'
+    compile 'cn.jzvd:jiaozivideoplayer:6.2.3'
+    //compile 'com.lidong.pdf:android_pdf:1.0.2'
+    compile 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    compile 'com.mylhyl:zxingscanner:1.5.1'
+}

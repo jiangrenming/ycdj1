@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab1_tab_layout_color">#B70302</color>
+    <color name="tab1_huodong_people_count_color">#FF6B29</color>
+    <color name="tab1_xuexi_people_count_color">#FF6002</color>
+    <color name="tab1_pai_hang_one_color">#FFFD00</color>
+    <color name="tab1_pai_hang_hour_color">#F42923</color>
+    <color name="tab1_wo_de_kao_shi_color">#FFAB00</color>
+
+    <color name="tab1_zai_xian_kao_shi_finish_color_1">#C1C1C1</color>
+    <color name="tab1_zai_xian_kao_shi_finish_color_2">#458F00</color>
+    <color name="tab1_zai_xian_kao_shi_finish_color_3">#E12325</color>
+    <color name="tab1_zai_xian_kao_shi_finish_color_4">#FA6E23</color>
+
+    <color name="tab2_tab_layout_color">#F4881B</color>
+    <color name="tab2_zhi_yuan_score_color">#2A8F17</color>
+    <color name="tab2_ji_fen_score_color">#7B3E08</color>
+
+    <color name="tab3_tab_layout_color">#3281EA</color>
+
+
+    <color name="tab2_color">#FF7800</color>
+    <color name="tab3_color">#009CFF</color>
+    <color name="tab4_color">#F18519</color>
+
+    <color name="tab1_wo_de_ju_bao_yihuifu_color">#009E1A</color>
+    <color name="tab1_wo_de_ju_bao_weihuifu_color">#FF7800</color>
+
+    <color name="tab1_zuzhishenghuo_status_text_color_1">#EC2B26</color>
+    <color name="tab1_zuzhishenghuo_status_text_color_2">#FF6C29</color>
+    <color name="tab1_zuzhishenghuo_status_text_color_3">#9D9797</color>
+
+    <color name="tab1_zaixianxuexi_status_text_color_1">#1B99E3</color>
+    <color name="tab1_zaixianxuexi_status_text_color_2">#FF6100</color>
+    <color name="tab1_zaixianxuexi_status_text_color_3">#999999</color>
+
+    <color name="tab3_weixinyuan_status_text_color_1">#1A9BE3</color>
+    <color name="tab3_weixinyuan_status_text_color_2">#FF8A00</color>
+    <color name="tab3_weixinyuan_status_text_color_3">#FF0000</color>
+
+    <color name="tab1_zai_xian_tou_piao_status_text_color_1">#0FB300</color>
+    <color name="tab1_zai_xian_tou_piao_status_text_color_2">#999999</color>
+
+    <color name="tab2_zhiyuanfuwu_status_text_color_1">#2A8F17</color>
+    <color name="tab2_zhiyuanfuwu_status_text_color_2">#1A9BE3</color>
+    <color name="tab2_zhiyuanfuwu_status_text_color_3">#999999</color>
+
+    <color name="title_grey">#CED9E7</color>
+    <color name="group_small_text_color">#ABAABF</color>
+</resources>

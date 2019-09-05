@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/icon_image_view"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/glide_place_holder_c8"
+            app:border_color="@color/omeng_color_11"
+            app:border_color2="@color/circle_image_border_2_color"
+            app:border_width="@dimen/border_width"
+            app:border_width2="@dimen/divider_height" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/icon_image_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/name_text_view"
+            android:textColor="@color/omeng_color_6"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/content_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_text_view"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/icon_image_view"
+            android:background="@drawable/tab1_wo_de_ju_bao_bubble_left"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f14" />
+    </RelativeLayout>
+</LinearLayout>

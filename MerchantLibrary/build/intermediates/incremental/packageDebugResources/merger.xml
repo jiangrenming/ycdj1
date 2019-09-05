@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\workspace\ycdj\MerchantLibrary\src\main\res"><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ic_arrow_white_24dp.xml" preprocessing="true" qualifiers=""><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_arrow_white_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-mdpi\ic_arrow_white_24dp.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-ldpi\ic_arrow_white_24dp.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xxhdpi\ic_arrow_white_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-hdpi\ic_arrow_white_24dp.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xhdpi\ic_arrow_white_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_arrow_white_24dp.xml" qualifiers="anydpi-v21" type="drawable"/></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\near_me.xml" preprocessing="true" qualifiers=""><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xxxhdpi\near_me.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-mdpi\near_me.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-ldpi\near_me.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xxhdpi\near_me.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-hdpi\near_me.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-xhdpi\near_me.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\pngs\debug\drawable-anydpi-v21\near_me.xml" qualifiers="anydpi-v21" type="drawable"/></file></source><source path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\rs\debug"/><source path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\workspace\ycdj\MerchantLibrary\src\main\res"><file name="activity_bottom_in_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_bottom_in_anim.xml" qualifiers="" type="anim"/><file name="activity_bottom_out_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_bottom_out_anim.xml" qualifiers="" type="anim"/><file name="activity_slide_in_left_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_slide_in_left_anim.xml" qualifiers="" type="anim"/><file name="activity_slide_in_right_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_slide_in_right_anim.xml" qualifiers="" type="anim"/><file name="activity_slide_out_left_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_slide_out_left_anim.xml" qualifiers="" type="anim"/><file name="activity_slide_out_right_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_slide_out_right_anim.xml" qualifiers="" type="anim"/><file name="activity_up_in_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_up_in_anim.xml" qualifiers="" type="anim"/><file name="activity_up_out_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\activity_up_out_anim.xml" qualifiers="" type="anim"/><file name="alpha_in" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\alpha_in.xml" qualifiers="" type="anim"/><file name="alpha_out" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\alpha_out.xml" qualifiers="" type="anim"/><file name="anim_dismiss" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\anim_dismiss.xml" qualifiers="" type="anim"/><file name="anim_show" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\anim_show.xml" qualifiers="" type="anim"/><file name="bottom_down" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\bottom_down.xml" qualifiers="" type="anim"/><file name="bottom_up" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\bottom_up.xml" qualifiers="" type="anim"/><file name="enter_app_in_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\enter_app_in_anim.xml" qualifiers="" type="anim"/><file name="enter_app_out_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\enter_app_out_anim.xml" qualifiers="" type="anim"/><file name="push_enter_animation" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\push_enter_animation.xml" qualifiers="" type="anim"/><file name="push_exit_animation" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\push_exit_animation.xml" qualifiers="" type="anim"/><file name="slide_in_from_bottom" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\slide_in_from_bottom.xml" qualifiers="" type="anim"/><file name="slide_out_to_bottom" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\slide_out_to_bottom.xml" qualifiers="" type="anim"/><file name="task_slide_in_left_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\task_slide_in_left_anim.xml" qualifiers="" type="anim"/><file name="task_slide_in_right_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\task_slide_in_right_anim.xml" qualifiers="" type="anim"/><file name="task_slide_out_left_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\task_slide_out_left_anim.xml" qualifiers="" type="anim"/><file name="task_slide_out_right_anim" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\task_slide_out_right_anim.xml" qualifiers="" type="anim"/><file name="top_down" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\top_down.xml" qualifiers="" type="anim"/><file name="top_up" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\anim\top_up.xml" qualifiers="" type="anim"/><file name="state_selector_dark" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\color\state_selector_dark.xml" qualifiers="" type="color"/><file name="state_selector_light" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\color\state_selector_light.xml" qualifiers="" type="color"/><file name="appbarlayout_elevated" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\appbarlayout_elevated.xml" qualifiers="" type="drawable"/><file name="btn_keyboard_key" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\btn_keyboard_key.xml" qualifiers="" type="drawable"/><file name="dialog_loading_progress_rotate" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\dialog_loading_progress_rotate.xml" qualifiers="" type="drawable"/><file name="grid_password_edit_corner_stroke_bg" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\grid_password_edit_corner_stroke_bg.xml" qualifiers="" type="drawable"/><file name="loading_password_shape" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\loading_password_shape.xml" qualifiers="" type="drawable"/><file name="more_pop_item_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\more_pop_item_selector.xml" qualifiers="" type="drawable"/><file name="multi_loading_shape" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\multi_loading_shape.xml" qualifiers="" type="drawable"/><file name="order_fragment_item_bottom_shadow" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\order_fragment_item_bottom_shadow.xml" qualifiers="" type="drawable"/><file name="pagertab_background_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\pagertab_background_selector.xml" qualifiers="" type="drawable"/><file name="ripple_circle_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_circle_red_selector.xml" qualifiers="" type="drawable"/><file name="ripple_circle_stroke_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_circle_stroke_red_selector.xml" qualifiers="" type="drawable"/><file name="ripple_common_gray_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_common_gray_selector.xml" qualifiers="" type="drawable"/><file name="ripple_common_tran_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_common_tran_selector.xml" qualifiers="" type="drawable"/><file name="ripple_common_white_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_common_white_selector.xml" qualifiers="" type="drawable"/><file name="ripple_corner_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_corner_red_selector.xml" qualifiers="" type="drawable"/><file name="ripple_corner_stroke_white_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_corner_stroke_white_selector.xml" qualifiers="" type="drawable"/><file name="ripple_rect_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\ripple_rect_red_selector.xml" qualifiers="" type="drawable"/><file name="shape_dialog_progress_bg" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\shape_dialog_progress_bg.xml" qualifiers="" type="drawable"/><file name="share_cancel_btn_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\share_cancel_btn_selector.xml" qualifiers="" type="drawable"/><file name="toolbar_bottom_shadow" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\toolbar_bottom_shadow.xml" qualifiers="" type="drawable"/><file name="toolbar_right_text_color_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\toolbar_right_text_color_selector.xml" qualifiers="" type="drawable"/><file name="white_ripple" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable\white_ripple.xml" qualifiers="" type="drawable"/><file name="amap_bus" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_bus.png" qualifiers="hdpi-v4" type="drawable"/><file name="amap_car" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_car.png" qualifiers="hdpi-v4" type="drawable"/><file name="amap_end" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_end.png" qualifiers="hdpi-v4" type="drawable"/><file name="amap_man" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_man.png" qualifiers="hdpi-v4" type="drawable"/><file name="amap_start" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_start.png" qualifiers="hdpi-v4" type="drawable"/><file name="amap_through" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\amap_through.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_bottom_bar" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\bg_bottom_bar.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir1" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir1.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir10" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir10.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir11" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir11.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir13" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir13.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir14" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir14.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir2" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir2.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir3" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir3.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir4" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir4.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir5" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir5.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir6" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir6.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir7" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir7.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir8" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir8.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir9" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir9.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir_end" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir_end.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir_start" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir_start.png" qualifiers="hdpi-v4" type="drawable"/><file name="dir_station" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\dir_station.png" qualifiers="hdpi-v4" type="drawable"/><file name="down" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\down.png" qualifiers="hdpi-v4" type="drawable"/><file name="up" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-hdpi\up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ripple_circle_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_circle_red_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_circle_stroke_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_circle_stroke_red_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_common_gray_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_common_gray_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_common_tran_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_common_tran_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_common_white_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_common_white_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_corner_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_corner_red_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_corner_stroke_white_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_corner_stroke_white_selector.xml" qualifiers="v21" type="drawable"/><file name="ripple_rect_red_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\ripple_rect_red_selector.xml" qualifiers="v21" type="drawable"/><file name="share_cancel_btn_selector" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\share_cancel_btn_selector.xml" qualifiers="v21" type="drawable"/><file name="white_ripple" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-v21\white_ripple.xml" qualifiers="v21" type="drawable"/><file name="album_detail_camera" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xhdpi\album_detail_camera.png" qualifiers="xhdpi-v4" type="drawable"/><file name="client_head_back_normal" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xhdpi\client_head_back_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="no_photo" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xhdpi\no_photo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="text_indicator" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xhdpi\text_indicator.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_keyboard_n" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\btn_keyboard_n.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_keyboard_p" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\btn_keyboard_p.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="del_btn" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\del_btn.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="edit_text_right_clear_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\edit_text_right_clear_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="empty_common_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\empty_common_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="glide_place_holder_c8" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\glide_place_holder_c8.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hall_icon_filter" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\hall_icon_filter.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="head_loading_circle" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\head_loading_circle.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="head_loading_logo" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\head_loading_logo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="keyboard_close_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\keyboard_close_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="keyboard_delete_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\keyboard_delete_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="keyboard_finish_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\keyboard_finish_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="multi_loading_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\multi_loading_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="multi_network_error_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\multi_network_error_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="password_hide_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\password_hide_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="password_show_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\password_show_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="right_arrow" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\right_arrow.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="tab1_toolbar_bg" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\tab1_toolbar_bg.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="tag_selected_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\tag_selected_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="tag_unselect_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\tag_unselect_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="toolbar_more_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\toolbar_more_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="vip_collapse" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\vip_collapse.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="vip_expand" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\drawable-xxhdpi\vip_expand.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="bottom_sheet_picker_bottom_sheet" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\bottom_sheet_picker_bottom_sheet.xml" qualifiers="" type="layout"/><file name="dialog_custom_progress_layout" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\dialog_custom_progress_layout.xml" qualifiers="" type="layout"/><file name="drag_item" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\drag_item.xml" qualifiers="" type="layout"/><file name="empty_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\empty_view.xml" qualifiers="" type="layout"/><file name="error_password_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\error_password_view.xml" qualifiers="" type="layout"/><file name="error_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\error_view.xml" qualifiers="" type="layout"/><file name="head_title_black_line_with_back" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\head_title_black_line_with_back.xml" qualifiers="" type="layout"/><file name="head_title_black_with_back" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\head_title_black_with_back.xml" qualifiers="" type="layout"/><file name="head_title_option_with_back" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\head_title_option_with_back.xml" qualifiers="" type="layout"/><file name="key_preview_layout" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\key_preview_layout.xml" qualifiers="" type="layout"/><file name="loading_password_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\loading_password_view.xml" qualifiers="" type="layout"/><file name="loading_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\loading_view.xml" qualifiers="" type="layout"/><file name="material_item_view_layout" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\material_item_view_layout.xml" qualifiers="" type="layout"/><file name="middle_empty_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\middle_empty_view.xml" qualifiers="" type="layout"/><file name="middle_error_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\middle_error_view.xml" qualifiers="" type="layout"/><file name="middle_loading_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\middle_loading_view.xml" qualifiers="" type="layout"/><file name="password_divider" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\password_divider.xml" qualifiers="" type="layout"/><file name="password_gridpasswordview" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\password_gridpasswordview.xml" qualifiers="" type="layout"/><file name="password_textview" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\password_textview.xml" qualifiers="" type="layout"/><file name="pull_to_zoom_root_layout" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\pull_to_zoom_root_layout.xml" qualifiers="" type="layout"/><file name="single_day_picker" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\single_day_picker.xml" qualifiers="" type="layout"/><file name="space_item_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\space_item_view.xml" qualifiers="" type="layout"/><file name="tag_view" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\tag_view.xml" qualifiers="" type="layout"/><file name="view_coordinatortablayout" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\layout\view_coordinatortablayout.xml" qualifiers="" type="layout"/><file name="loading_icon" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\mipmap-xhdpi\loading_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\attrs.xml" qualifiers=""><attr format="reference" name="accentColor"/><attr format="reference" name="iconColor"/><attr format="reference" name="windowBackground"/><attr format="reference" name="stateSelector"/><attr format="reference" name="fabCircleColor"/><declare-styleable name="CircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="dimension" name="border_width2"/>
+        <attr format="color" name="border_color"/>
+        <attr format="color" name="border_color2"/>
+    </declare-styleable><declare-styleable name="ShSwitchView">
+        <attr format="reference|color" name="tintColor"/>
+        <attr format="reference|dimension" name="outerStrokeWidth"/>
+        <attr format="reference|dimension" name="shadowSpace"/>
+    </declare-styleable><declare-styleable name="ViewPagerIndicator">
+        <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+        <attr format="reference" name="vpiLinePageIndicatorStyle"/>
+        <attr format="reference" name="vpiUnderlinePageIndicatorStyle"/>
+    </declare-styleable><attr format="boolean" name="centered"/><attr format="color" name="selectedColor"/><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="unselectedStrokeWidth"/><attr format="dimension" name="selectedStrokeWidth"/><attr format="color" name="unselectedColor"/><declare-styleable name="CirclePageIndicator">
+        
+        <attr name="centered"/>
+        
+        <attr format="color" name="fillColor"/>
+        
+        <attr format="color" name="pageColor"/>
+        
+        <attr name="android:orientation"/>
+        
+        <attr format="dimension" name="radius"/>
+        
+        <attr format="boolean" name="snap"/>
+        
+        <attr format="color" name="strokeColor"/>
+        
+        <attr name="strokeWidth"/>
+        
+        <attr name="android:background"/>
+    </declare-styleable><declare-styleable name="UnderlinePageIndicator">
+        
+        <attr format="boolean" name="fades"/>
+        
+        <attr format="integer" name="fadeDelay"/>
+        
+        <attr format="integer" name="fadeLength"/>
+        
+        <attr name="selectedColor"/>
+        
+        <attr name="android:background"/>
+    </declare-styleable><declare-styleable name="MultiStateView">
+        <attr format="reference" name="msv_loadingView"/>
+        <attr format="reference" name="msv_emptyView"/>
+        <attr format="reference" name="msv_errorView"/>
+        <attr format="enum" name="msv_viewState">
+            <enum name="content" value="0"/>
+            <enum name="error" value="1"/>
+            <enum name="empty" value="2"/>
+            <enum name="loading" value="3"/>
+        </attr>
+        <attr format="boolean" name="msv_animateViewChanges"/>
+    </declare-styleable><declare-styleable name="PagerSlidingTab">
+        <attr format="color" name="pstIndicatorColor"/>
+        <attr format="color" name="pstUnderlineColor"/>
+        <attr format="color" name="pstDividerColor"/>
+        <attr format="dimension" name="pstIndicatorHeight"/>
+        <attr format="dimension" name="pstUnderlineHeight"/>
+        <attr format="dimension" name="pstDividerPadding"/>
+        <attr format="dimension" name="pstTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstScrollOffset"/>
+        <attr format="reference" name="pstTabBackground"/>
+        <attr format="boolean" name="pstShouldExpand"/>
+        <attr format="boolean" name="pstTextAllCaps"/>
+        <attr format="dimension" name="pstTextSize"/>
+        <attr format="color" name="pstTextNormalColor"/>
+        <attr format="color" name="pstTextDisplayColor"/>
+        <attr format="dimension" name="pstIndicatorPaddingLeftRight"/>
+        <attr format="dimension" name="pstIndicatorWidth"/>
+    </declare-styleable><declare-styleable name="RefreshView">
+        <attr format="enum" name="type">
+            <enum name="soup" value="0"/>
+        </attr>
+    </declare-styleable><declare-styleable name="TagFlowLayout">
+        <attr format="boolean" name="showHighlight"/>
+        <attr format="reference" name="defaultDrawable"/>
+        <attr format="reference" name="selectDrawable"/>
+        <attr format="reference" name="disableDrawable"/>
+        <attr format="color|reference" name="defaultTextColor"/>
+        <attr format="color|reference" name="selectTextColor"/>
+        <attr format="color|reference" name="disableTextColor"/>
+        <attr name="mode">
+            <enum name="MULTI" value="0"/>
+            <enum name="SINGLE" value="1"/>
+        </attr>
+        <attr format="integer" name="maxSelectionCount"/>
+    </declare-styleable><declare-styleable name="WheelPicker">
+        <attr format="reference" name="wheel_data"/>
+        <attr format="integer" name="wheel_selected_item_position"/>
+        <attr format="dimension" name="wheel_item_text_size"/>
+        <attr format="color" name="wheel_item_text_color"/>
+        <attr format="color" name="wheel_selected_item_text_color"/>
+        <attr format="boolean" name="wheel_same_width"/>
+        <attr format="string" name="wheel_maximum_width_text"/>
+        <attr format="integer" name="wheel_maximum_width_text_position"/>
+        <attr format="integer" name="wheel_visible_item_count"/>
+        <attr format="dimension" name="wheel_item_space"/>
+        <attr format="boolean" name="wheel_cyclic"/>
+        <attr format="boolean" name="wheel_indicator"/>
+        <attr format="color" name="wheel_indicator_color"/>
+        <attr format="dimension" name="wheel_indicator_size"/>
+        <attr format="boolean" name="wheel_curtain"/>
+        <attr format="color" name="wheel_curtain_color"/>
+        <attr format="boolean" name="wheel_atmospheric"/>
+        <attr format="boolean" name="wheel_curved"/>
+        <attr format="enum" name="wheel_item_align">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SingleDateAndTimePicker">
+        <attr format="color" name="picker_textColor"/>
+        <attr format="color" name="picker_selectedTextColor"/>
+        <attr format="dimension" name="picker_textSize"/>
+        <attr format="boolean" name="picker_curved"/>
+        <attr format="boolean" name="picker_cyclic"/>
+        <attr format="boolean" name="picker_mustBeOnFuture"/>
+        <attr format="integer" name="picker_visibleItemCount"/>
+        <attr format="integer" name="picker_selectorColor"/>
+        <attr format="dimension" name="picker_selectorHeight"/>
+    </declare-styleable><declare-styleable name="SwipeItemLayout">
+        <attr format="enum" name="bga_sil_swipeDirection">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr format="enum" name="bga_sil_bottomMode">
+            <enum name="pullOut" value="0"/>
+            <enum name="layDown" value="1"/>
+        </attr>
+        <attr format="dimension" name="bga_sil_springDistance"/>
+    </declare-styleable><declare-styleable name="PullToZoomView">
+        <attr format="reference" name="headerView"/>
+        <attr format="reference" name="contentView"/>
+        <attr format="reference" name="zoomView"/>
+        <attr format="boolean" name="isHeaderParallax"/>
+        <attr format="boolean" name="isVip"/>
+    </declare-styleable><declare-styleable name="MoreTextStyle">
+        <attr format="dimension" name="moreTextSize"/>
+        <attr format="color" name="moreTextColor"/>
+        <attr format="integer" name="moreMaxLine"/>
+        <attr format="string" name="moreText"/>
+        <attr format="integer" name="moreAnimDuration"/>
+        <attr format="integer" name="moreStyle"/>
+    </declare-styleable><declare-styleable name="AutoFlowLayout">
+        <attr format="dimension" name="fl_horizontalChildGap"/>
+        <attr format="dimension" name="fl_verticalChildGap"/>
+        <attr format="boolean" name="fl_isDistributionWhiteSpacing"/>
+    </declare-styleable><declare-styleable name="GridPasswordView">
+        <attr format="integer" name="gridPassBgType"/>
+        <attr format="color|reference" name="gridPasstextColor"/>
+        <attr format="dimension" name="gridPasstextSize"/>
+        <attr format="color" name="gridPasslineColor"/>
+        <attr format="color" name="gridPassColor"/>
+        <attr format="dimension" name="gridPasslineWidth"/>
+        <attr format="integer" name="gridPasswordLength"/>
+        <attr format="string" name="gridPasswordTransformation"/>
+        <attr format="enum" name="gridPasswordType">
+            <enum name="gridPassNumberPassword" value="0"/>
+            <enum name="gridPassTextPassword" value="1"/>
+            <enum name="gridPassTextVisiblePassword" value="2"/>
+            <enum name="gridPassTextWebPassword" value="3"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ProperRatingBar">
+
+        
+        <attr format="integer" name="prb_totalTicks"/>
+
+        
+        <attr format="integer" name="prb_defaultRating"/>
+
+        
+        <attr format="boolean" name="prb_clickable"/>
+
+
+        
+        <attr format="string" name="prb_symbolicTick"/>
+
+        
+        <attr name="android:textSize"/>
+
+        
+        <attr name="android:textStyle"/>
+
+        
+        <attr format="reference|color" name="prb_symbolicTickNormalColor"/>
+
+        
+        <attr format="reference|color" name="prb_symbolicTickSelectedColor"/>
+
+
+        
+        <attr format="reference" name="prb_tickNormalDrawable"/>
+
+        
+        <attr format="reference" name="prb_tickSelectedDrawable"/>
+
+        
+        <attr format="dimension" name="prb_tickSpacing"/>
+    </declare-styleable><declare-styleable name="CoordinatorTabLayout">
+        <attr format="color" name="contentScrim"/>
+        <attr format="color" name="tabIndicatorColor"/>
+        <attr format="color" name="tabTextColor"/>
+    </declare-styleable><declare-styleable name="PasswordEditText">
+        <attr format="integer" name="pet_iconShow"/>
+        <attr format="integer" name="pet_iconHide"/>
+    </declare-styleable></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="primary">#ffA0A0A0</color><color name="primary_dark">#ff202020</color><color name="accent">#ff009688</color><color name="window_background">#FFF5F5F5</color><color name="fabCircleColor_light">#ff584d</color><color name="status_bar_dark_color">#3f3f3f</color><color name="btn_color_n">#FF7800</color><color name="btn_color_p">#DF5800</color><color name="omeng_color_1">#F23934</color><color name="omeng_color_2">#40F23934</color><color name="omeng_color_3">#E22924</color><color name="omeng_color_4">#332929</color><color name="omeng_color_5">#807c7c</color><color name="omeng_color_6">#b3aead</color><color name="omeng_color_7">#dbd5d5</color><color name="omeng_color_8">#ccc6c6</color><color name="omeng_color_9">#f7f5f5</color><color name="omeng_color_10">#f2f0f0</color><color name="omeng_color_11">#fffefefe</color><color name="omeng_color_12">#F4F5F6</color><color name="omeng_color_13">#666666</color><color name="omeng_color_14">#999999</color><color name="omeng_color_15">#595959</color><color name="cb">#332929</color><color name="cb60">#999797</color><color name="cb80">#cccaca</color><color name="cb88">#e0dede</color><color name="cb90">#e6e3e3</color><color name="cb97">#f7f5f5</color><color name="cw">#fffefefe</color><color name="cg">#31d09a</color><color name="cr1">#ff584d</color><color name="cr2">#ee4136</color><color name="cr3">#ff8880</color><color name="co">#f56f4b</color><color name="divider_color">#ece6e6</color><color name="ripple_common_color">#ffdcdcdc</color><color name="ripple_red_color">#2f000000</color><color name="circle_image_border_2_color">#ded8d8</color><color name="list_view_divide_color">#E8E8E8</color><color name="grid_pass_line_color">#C0C0C0</color><color name="picker_background">#3F51B5</color><color name="picker_button_background_selected">#3F51B5</color><color name="picker_button_background">@android:color/white</color><color name="picker_button_background_innactive">#BDBDBD</color><color name="picker_default_text_color">#999</color><color name="picker_default_selected_text_color">@android:color/black</color><color name="picker_default_selector_color">#646464</color><color name="space_background_color">#757575</color><color name="space_transparent">#00000000</color><color name="space_white">#ffffff</color><color name="space_default_color">#F7F8F8</color><color name="centre_button_color">#4285F4</color><color name="default_inactive_item_color">#727171</color><color name="default_active_item_color">#FF7000</color><color name="selected_item_color">#3f8f8f8f</color><color name="badge_background_color">#f44336</color><color name="white_with_alpha">#bfffffff</color><color name="colorBackgroundHighlightWhite">#8d8f8f8f</color></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\dimens.xml" qualifiers=""><dimen name="f32">32sp</dimen><dimen name="f26">26sp</dimen><dimen name="f20">20sp</dimen><dimen name="f18">18sp</dimen><dimen name="f17">17sp</dimen><dimen name="f16">16sp</dimen><dimen name="f15">15sp</dimen><dimen name="f14">14sp</dimen><dimen name="f13">13sp</dimen><dimen name="f12">12sp</dimen><dimen name="f11">11sp</dimen><dimen name="f10">10sp</dimen><dimen name="f9">9sp</dimen><dimen name="f8">8sp</dimen><dimen name="divider_height">0.5dp</dimen><dimen name="tag_line_height">1dp</dimen><dimen name="multi_loading_progress_bar_width">36dp</dimen><dimen name="head_title_height">50dp</dimen><dimen name="item_height">48dp</dimen><dimen name="button_height">48dp</dimen><dimen name="edit_text_height">48dp</dimen><dimen name="search_edit_text_height">34dp</dimen><dimen name="toolbar_shadow_height">3dp</dimen><dimen name="drag_square_interval">4dp</dimen><dimen name="side_bar_text_size">14sp</dimen><dimen name="side_bar_margin">12dp</dimen><dimen name="keyboard_height">55dp</dimen><dimen name="pass_height">55dp</dimen><dimen name="grid_password_padding">20dp</dimen><dimen name="grid_password_margin">8dp</dimen><dimen name="bank_list_item_height">140dp</dimen><dimen name="bank_list_image_width">60dp</dimen><dimen name="bank_verify_height_1">370dp</dimen><dimen name="bank_verify_height_2">319dp</dimen><dimen name="WheelItemTextSize">24sp</dimen><dimen name="WheelItemSpace">12dp</dimen><dimen name="WheelIndicatorSize">2dp</dimen><dimen name="WheelMargins">8dp</dimen><dimen name="wheel_spacing">30dp</dimen><dimen name="wheelSelectorHeight">40dp</dimen><dimen name="round_corner_radius">8dp</dimen><dimen name="round_stroke_width">0.5dp</dimen><dimen name="vip_round_corner_radius">13dp</dimen><dimen name="vip_round_stroke_width">1dp</dimen><dimen name="prb_symbolic_tick_default_text_size">15sp</dimen><dimen name="prb_drawable_tick_default_spacing">1dp</dimen><dimen name="space_navigation_height">72dp</dimen><dimen name="main_content_height">50dp</dimen><dimen name="space_centre_button_default_size">50dp</dimen><dimen name="space_centre_button_margin">2dp</dimen><dimen name="centre_content_width">72dp</dimen><dimen name="space_item_icon_default_size">20dp</dimen><dimen name="space_item_icon_only_size">25dp</dimen><dimen name="space_item_text_default_size">10sp</dimen><dimen name="badge_left_margin">5dp</dimen><dimen name="view_bottom_margin">50dp</dimen><dimen name="statusbar_view_height">0dp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\ids.xml" qualifiers=""><item name="scrollview" type="id"/><item name="tag_multistateview" type="id"/><item name="tag_glide_id" type="id"/><item name="tag_glide_order_detail_id" type="id"/><item name="keyboard_view" type="id"/><item name="tag_hall_tag_auth_id" type="id"/><item name="prb_child_tag_id" type="id"/><item name="circular_image_view_1" type="id"/><item name="circular_image_view_2" type="id"/><item name="circular_image_view_3" type="id"/><item name="statusbarutil_fake_status_bar_view" type="id"/><item name="statusbarutil_translucent_view" type="id"/></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MerchantLibrary</string><string name="btn_commit">确定</string><string name="dialog_ok">确定</string><string name="dialog_set">设置</string><string name="dialog_cancel">取消</string><string name="save">保存</string><string name="delete">删除</string><string name="next_step">下一步</string><string name="save_success">保存成功</string><string name="create">新建</string><string name="dialog_i_know">我知道了</string><string name="add">添加</string><string name="done">完成</string><string name="edit">编辑</string><string name="submit">提交</string><string name="handler">处理中…</string><string name="send">发送</string><string name="network_error">加载失败, 请稍后再试!</string><string name="multi_no_data">暂无数据</string><string name="multi_network_error">点击重新加载</string><string name="get_bean_error">获取数据失败</string><string name="load_bean_error">加载数据失败</string><string name="network_not_pass">网络链接错误</string><string name="click_to_refresh">点击刷新</string><string name="permission_title">提示</string><string name="permission_msg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string><string name="settings">设置</string><string name="cancel">取消</string><string name="login_out_progress">正在退出…</string><string name="send_progress">正在发送…</string><string name="upload_progress">正在上传…</string><string name="delete_progress">正在删除…</string><string name="save_progress">正在保存…</string><string name="login_progress">正在登录…</string><string name="set_progress">设置中…</string><string name="doing_progress">操作中…</string><string name="deal_progress">处理中…</string><string name="search_progress">正在搜索…</string><string name="show_no_dial_tips">无法拨打电话!</string><string name="show_no_sms_tips">无法发送短信!</string><string name="uninstall_browser">你尚未安装浏览器！</string><string name="vista_share_title">分享</string><string name="tab_title_format">  %1$s  </string><string name="emoji_hint">请不要输入表情字符</string><string name="emoji_hint_2">暂时不支持发送表情</string><string name="prb_default_symbolic_string">$</string><string name="expand_text_view_up">收起</string><string name="expand_text_view_down">展开</string><string name="bundle_verify_top_tip">请输入支付安全密码</string><string name="bundle_verify_reload">点击重试</string><string name="encrpy_data_error">加密数据失败</string><string name="permission_friendly_tips">为了更好的产品体验，在使用过程中会申请一些权限，请允许它们！</string><string name="permission_notify_msg">当前应用缺少%1$s权限。请前往\"设置\"-\"权限\"页面打开所需权限。</string><string name="permission_location">定位</string><string name="permission_location_rationale">需要定位权限才能开启定位。</string><string name="permission_location_denied">定位权限被拒绝。为了程序的正常使用，请允许它！</string><string name="permission_location_splash_denied">定位权限被拒绝。为了程序的正常使用，请前往系统设置-应用管理页面允许它！</string><string name="permission_location_never_ask_again">定位权限被拒绝，并设置为不再询问。</string><string name="permission_location_gps_tip">缺少定位权限，或GPS未打开！</string><string name="permission_record_audio">录音</string><string name="permission_record_audio_rationale">需要录音权限才能正常录音。</string><string name="permission_record_audio_denied">录音权限被拒绝。为了程序的正常使用，请允许它！</string><string name="permission_storage">访问存储设备</string><string name="permission_storage_rationale">缺少访问存储设备权限。为了程序的正常使用，请允许它！</string><string name="permission_storage_denied">访问存储设备权限被拒绝。为了程序的正常使用，请允许它！</string><string name="permission_camera">相机</string><string name="permission_camera_rationale">需要相机权限才能进行拍照。</string><string name="permission_camera_denied">相机权限被拒绝。为了程序的正常使用，请允许它！</string><string name="setting">设置</string><string name="cant_find_camera">没有系统相机</string><string name="cant_find_gallery">未找到相册软件</string><string name="cant_find_pictrue">未找到图片</string><string name="add_photo_error">添加相片失败</string><string name="selector_photo_title">选择照片</string><string name="selector_from_see">查看</string><string name="selector_from_camera">拍照</string><string name="selector_from_album">从相册中选择</string><string name="picker_today">今日</string><string name="picker_am">上午</string><string name="picker_pm">下午</string><string name="picker_time_long_term">长期有效</string><string name="business_scope_tag_max_tip">当前版本最多支持添加%1$s个服务项目</string><string name="date_ago_text_1">刚刚</string><string name="date_ago_text_2">%1$d秒前</string><string name="date_ago_text_3">%1$d分钟前</string><string name="date_ago_text_4">%1$d小时前</string><string name="date_ago_text_5">%1$d天前</string><string name="date_ago_text_6">%1$d周前</string><string name="date_ago_text_7">%1$d月前</string><string name="date_ago_text_8">%1$d年前</string><string name="wechat_app_no_found">请先安装微信客户端！</string><string name="qq_app_no_found">请先安装QQ客户端！</string></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\styles.xml" qualifiers=""><style name="ToolbarDarkTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+        <item name="colorControlNormal">@color/omeng_color_11</item>
+    </style><style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+    </style><style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/f16</item>
+    </style><style name="color_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/divider_color</item>
+    </style><style name="shop_detail_vip_color_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">#4c4c4c</item>
+    </style><style name="color_divide_shu_line_style">
+        <item name="android:layout_width">@dimen/divider_height</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+    </style><style name="listview_item_root_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style><style name="listview_style_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@color/list_view_divide_color</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollingCache">false</item>
+    </style><style name="custom_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="BottomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialog.AnimationStyle</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style><style name="BottomDialog.AnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style><style name="MiddleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/MiddleDialog.AnimationStyle</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style><style name="MiddleDialog.AnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style><style name="PopUpAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+        <item name="android:windowShowAnimation">@anim/alpha_in</item>
+        <item name="android:windowHideAnimation">@anim/alpha_out</item>
+    </style><style name="ripple_common_gray_click_style">
+        <item name="android:background">@drawable/ripple_common_gray_selector</item>
+        
+    </style><style name="ripple_common_white_click_style">
+        <item name="android:background">@drawable/ripple_common_white_selector</item>
+        
+    </style><style name="ripple_corner_red_click_style">
+        <item name="android:background">@drawable/ripple_corner_red_selector</item>
+        
+    </style><style name="ripple_rect_red_click_style">
+        <item name="android:background">@drawable/ripple_rect_red_selector</item>
+        
+    </style><style name="ripple_corner_stroke_white_click_style">
+        <item name="android:background">@drawable/ripple_corner_stroke_white_selector</item>
+        
+    </style><style name="ripple_top_toolbar_btn_white_click_style">
+        <item name="android:background">@drawable/ripple_common_white_selector</item>
+        
+    </style><style name="ripple_top_toolbar_btn_gray_click_style">
+        <item name="android:background">@drawable/ripple_common_gray_selector</item>
+        
+    </style><style name="ripple_top_toolbar_btn_tran_click_style">
+        <item name="android:background">@drawable/ripple_common_tran_selector</item>
+        
+    </style><style name="ripple_circle_red_selector">
+        <item name="android:background">@drawable/ripple_circle_red_selector</item>
+        
+    </style><style name="ripple_circle_stroke_red_selector">
+        <item name="android:background">@drawable/ripple_circle_stroke_red_selector</item>
+        
+    </style><style name="GridPasswordView"/><style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style><style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style><style name="fits_system_windows">
+        <item name="android:fitsSystemWindows">true</item>
+    </style><style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearence</item>
+    </style><style name="TabTextAppearence" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values\vpi__defaults.xml" qualifiers=""><bool name="default_circle_indicator_centered">true</bool><color name="default_circle_indicator_fill_color">#FFFFFFFF</color><color name="default_circle_indicator_page_color">#00000000</color><integer name="default_circle_indicator_orientation">0</integer><dimen name="default_circle_indicator_radius">3dp</dimen><bool name="default_circle_indicator_snap">false</bool><color name="default_circle_indicator_stroke_color">#FFDDDDDD</color><dimen name="default_circle_indicator_stroke_width">1dp</dimen><dimen name="default_line_indicator_line_width">12dp</dimen><dimen name="default_line_indicator_gap_width">4dp</dimen><dimen name="default_line_indicator_stroke_width">1dp</dimen><color name="default_line_indicator_selected_color">#FF33B5E5</color><color name="default_line_indicator_unselected_color">#FFBBBBBB</color><bool name="default_line_indicator_centered">true</bool><bool name="default_underline_indicator_fades">true</bool><integer name="default_underline_indicator_fade_delay">300</integer><integer name="default_underline_indicator_fade_length">400</integer><color name="default_underline_indicator_selected_color">#FF33B5E5</color></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-hdpi\dimens.xml" qualifiers="hdpi-v4"><dimen name="divider_height">1px</dimen><dimen name="badge_left_margin">1dp</dimen><dimen name="f32">30sp</dimen><dimen name="f26">24sp</dimen><dimen name="f20">18sp</dimen><dimen name="f18">16sp</dimen><dimen name="f17">15sp</dimen><dimen name="f16">14sp</dimen><dimen name="f15">13sp</dimen><dimen name="f14">12sp</dimen><dimen name="f13">11sp</dimen><dimen name="f12">10sp</dimen><dimen name="f11">9sp</dimen><dimen name="f10">8sp</dimen><dimen name="f9">7sp</dimen><dimen name="f8">6sp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-v19\dimens.xml" qualifiers="v19"><dimen name="statusbar_view_height">0dp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="ripple_top_toolbar_btn_white_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        
+        
+        
+        
+        
+    </style><style name="ripple_top_toolbar_btn_gray_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        
+        
+        
+        
+        
+    </style><style name="ripple_top_toolbar_btn_tran_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        
+        
+        
+        
+        
+    </style></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="badge_left_margin">5dp</dimen><dimen name="f32">32sp</dimen><dimen name="f26">26sp</dimen><dimen name="f20">20sp</dimen><dimen name="f18">18sp</dimen><dimen name="f17">17sp</dimen><dimen name="f16">16sp</dimen><dimen name="f15">15sp</dimen><dimen name="f14">14sp</dimen><dimen name="f13">13sp</dimen><dimen name="f12">12sp</dimen><dimen name="f11">11sp</dimen><dimen name="f10">10sp</dimen><dimen name="f9">9sp</dimen><dimen name="f8">8sp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-xhdpi\dimens.xml" qualifiers="xhdpi-v4"><dimen name="badge_left_margin">1dp</dimen><dimen name="f32">31sp</dimen><dimen name="f26">25sp</dimen><dimen name="f20">19sp</dimen><dimen name="f18">17sp</dimen><dimen name="f17">16sp</dimen><dimen name="f16">15sp</dimen><dimen name="f15">14sp</dimen><dimen name="f14">13sp</dimen><dimen name="f13">12sp</dimen><dimen name="f12">11sp</dimen><dimen name="f11">10sp</dimen><dimen name="f10">9sp</dimen><dimen name="f9">8sp</dimen><dimen name="f8">7sp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-xxhdpi\dimens.xml" qualifiers="xxhdpi-v4"><dimen name="badge_left_margin">5dp</dimen><dimen name="f32">32sp</dimen><dimen name="f26">26sp</dimen><dimen name="f20">20sp</dimen><dimen name="f18">18sp</dimen><dimen name="f17">17sp</dimen><dimen name="f16">16sp</dimen><dimen name="f15">15sp</dimen><dimen name="f14">14sp</dimen><dimen name="f13">13sp</dimen><dimen name="f12">12sp</dimen><dimen name="f11">11sp</dimen><dimen name="f10">10sp</dimen><dimen name="f9">9sp</dimen><dimen name="f8">8sp</dimen></file><file path="D:\workspace\ycdj\MerchantLibrary\src\main\res\values-xxxhdpi\dimens.xml" qualifiers="xxxhdpi-v4"><dimen name="badge_left_margin">5dp</dimen><dimen name="f32">32sp</dimen><dimen name="f26">26sp</dimen><dimen name="f20">20sp</dimen><dimen name="f18">18sp</dimen><dimen name="f17">17sp</dimen><dimen name="f16">16sp</dimen><dimen name="f15">15sp</dimen><dimen name="f14">14sp</dimen><dimen name="f13">13sp</dimen><dimen name="f12">12sp</dimen><dimen name="f11">11sp</dimen><dimen name="f10">10sp</dimen><dimen name="f9">9sp</dimen><dimen name="f8">8sp</dimen></file><file name="digit" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\xml\digit.xml" qualifiers="" type="xml"/><file name="rc_file_path" path="D:\workspace\ycdj\MerchantLibrary\src\main\res\xml\rc_file_path.xml" qualifiers="" type="xml"/></source><source path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\rs\debug"/><source path="D:\workspace\ycdj\MerchantLibrary\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\workspace\ycdj\MerchantLibrary\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\workspace\ycdj\MerchantLibrary\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ProperRatingBar"><attr format="integer" name="prb_totalTicks"/><attr format="integer" name="prb_defaultRating"/><attr format="boolean" name="prb_clickable"/><attr format="string" name="prb_symbolicTick"/><attr name="android:textSize"/><attr name="android:textStyle"/><attr format="reference|color" name="prb_symbolicTickNormalColor"/><attr format="reference|color" name="prb_symbolicTickSelectedColor"/><attr format="reference" name="prb_tickNormalDrawable"/><attr format="reference" name="prb_tickSelectedDrawable"/><attr format="dimension" name="prb_tickSpacing"/></declare-styleable><declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable><declare-styleable name="PasswordEditText"><attr format="integer" name="pet_iconShow"/><attr format="integer" name="pet_iconHide"/></declare-styleable><declare-styleable name="WheelPicker"><attr format="reference" name="wheel_data"/><attr format="integer" name="wheel_selected_item_position"/><attr format="dimension" name="wheel_item_text_size"/><attr format="color" name="wheel_item_text_color"/><attr format="color" name="wheel_selected_item_text_color"/><attr format="boolean" name="wheel_same_width"/><attr format="string" name="wheel_maximum_width_text"/><attr format="integer" name="wheel_maximum_width_text_position"/><attr format="integer" name="wheel_visible_item_count"/><attr format="dimension" name="wheel_item_space"/><attr format="boolean" name="wheel_cyclic"/><attr format="boolean" name="wheel_indicator"/><attr format="color" name="wheel_indicator_color"/><attr format="dimension" name="wheel_indicator_size"/><attr format="boolean" name="wheel_curtain"/><attr format="color" name="wheel_curtain_color"/><attr format="boolean" name="wheel_atmospheric"/><attr format="boolean" name="wheel_curved"/><attr format="enum" name="wheel_item_align">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr></declare-styleable><declare-styleable name="SwipeItemLayout"><attr format="enum" name="bga_sil_swipeDirection">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="enum" name="bga_sil_bottomMode">
+            <enum name="pullOut" value="0"/>
+            <enum name="layDown" value="1"/>
+        </attr><attr format="dimension" name="bga_sil_springDistance"/></declare-styleable><declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/><attr format="boolean" name="isVip"/></declare-styleable><declare-styleable name="ShSwitchView"><attr format="reference|color" name="tintColor"/><attr format="reference|dimension" name="outerStrokeWidth"/><attr format="reference|dimension" name="shadowSpace"/></declare-styleable><declare-styleable name="PagerSlidingTab"><attr format="color" name="pstIndicatorColor"/><attr format="color" name="pstUnderlineColor"/><attr format="color" name="pstDividerColor"/><attr format="dimension" name="pstIndicatorHeight"/><attr format="dimension" name="pstUnderlineHeight"/><attr format="dimension" name="pstDividerPadding"/><attr format="dimension" name="pstTabPaddingLeftRight"/><attr format="dimension" name="pstScrollOffset"/><attr format="reference" name="pstTabBackground"/><attr format="boolean" name="pstShouldExpand"/><attr format="boolean" name="pstTextAllCaps"/><attr format="dimension" name="pstTextSize"/><attr format="color" name="pstTextNormalColor"/><attr format="color" name="pstTextDisplayColor"/><attr format="dimension" name="pstIndicatorPaddingLeftRight"/><attr format="dimension" name="pstIndicatorWidth"/></declare-styleable><declare-styleable name="GridPasswordView"><attr format="integer" name="gridPassBgType"/><attr format="color|reference" name="gridPasstextColor"/><attr format="dimension" name="gridPasstextSize"/><attr format="color" name="gridPasslineColor"/><attr format="color" name="gridPassColor"/><attr format="dimension" name="gridPasslineWidth"/><attr format="integer" name="gridPasswordLength"/><attr format="string" name="gridPasswordTransformation"/><attr format="enum" name="gridPasswordType">
+            <enum name="gridPassNumberPassword" value="0"/>
+            <enum name="gridPassTextPassword" value="1"/>
+            <enum name="gridPassTextVisiblePassword" value="2"/>
+            <enum name="gridPassTextWebPassword" value="3"/>
+        </attr></declare-styleable><declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="dimension" name="border_width2"/><attr format="color" name="border_color"/><attr format="color" name="border_color2"/></declare-styleable><declare-styleable name="AutoFlowLayout"><attr format="dimension" name="fl_horizontalChildGap"/><attr format="dimension" name="fl_verticalChildGap"/><attr format="boolean" name="fl_isDistributionWhiteSpacing"/></declare-styleable><declare-styleable name="SingleDateAndTimePicker"><attr format="color" name="picker_textColor"/><attr format="color" name="picker_selectedTextColor"/><attr format="dimension" name="picker_textSize"/><attr format="boolean" name="picker_curved"/><attr format="boolean" name="picker_cyclic"/><attr format="boolean" name="picker_mustBeOnFuture"/><attr format="integer" name="picker_visibleItemCount"/><attr format="integer" name="picker_selectorColor"/><attr format="dimension" name="picker_selectorHeight"/></declare-styleable><declare-styleable name="MultiStateView"><attr format="reference" name="msv_loadingView"/><attr format="reference" name="msv_emptyView"/><attr format="reference" name="msv_errorView"/><attr format="enum" name="msv_viewState">
+            <enum name="content" value="0"/>
+            <enum name="error" value="1"/>
+            <enum name="empty" value="2"/>
+            <enum name="loading" value="3"/>
+        </attr><attr format="boolean" name="msv_animateViewChanges"/></declare-styleable><declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable><declare-styleable name="RefreshView"><attr format="enum" name="type">
+            <enum name="soup" value="0"/>
+        </attr></declare-styleable><declare-styleable name="MoreTextStyle"><attr format="dimension" name="moreTextSize"/><attr format="color" name="moreTextColor"/><attr format="integer" name="moreMaxLine"/><attr format="string" name="moreText"/><attr format="integer" name="moreAnimDuration"/><attr format="integer" name="moreStyle"/></declare-styleable><declare-styleable name="CoordinatorTabLayout"><attr format="color" name="contentScrim"/><attr format="color" name="tabIndicatorColor"/><attr format="color" name="tabTextColor"/></declare-styleable><declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable><declare-styleable name="TagFlowLayout"><attr format="boolean" name="showHighlight"/><attr format="reference" name="defaultDrawable"/><attr format="reference" name="selectDrawable"/><attr format="reference" name="disableDrawable"/><attr format="color|reference" name="defaultTextColor"/><attr format="color|reference" name="selectTextColor"/><attr format="color|reference" name="disableTextColor"/><attr name="mode">
+            <enum name="MULTI" value="0"/>
+            <enum name="SINGLE" value="1"/>
+        </attr><attr format="integer" name="maxSelectionCount"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/omeng_color_12"
+        app:elevation="0dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/main.collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/omeng_color_11"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:background="@drawable/tab2_dang_yuan_xin_xi_top_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/icon_image_view"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/glide_place_holder_c8"
+                    app:border_color="@color/omeng_color_11"
+                    app:border_color2="@color/circle_image_border_2_color"
+                    app:border_width="@dimen/border_width"
+                    app:border_width2="@dimen/divider_height" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f16" />
+
+                    <TextView
+                        android:id="@+id/score_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/tab2_jifenguanli_icon_zongfen"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/tab2_jfgl_person_text_11"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f13" />
+
+                    <TextView
+                        android:id="@+id/cyhd_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/tab2_jifenguanli_icon_canyu"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/tab2_jfgl_person_text_11"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f13" android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/xsdzb_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/tab2_jifenguanli_icon_xianshu"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/tab2_jfgl_person_text_13"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f13" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/tab2_toolbar_bg"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ToolbarDarkTheme">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f18" />
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            style="@style/MainTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/omeng_color_11" />
+
+        <View style="@style/color_divide_line_style" />
+    </android.support.design.widget.AppBarLayout>
+
+    <com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager>
+
+</android.support.design.widget.CoordinatorLayout>

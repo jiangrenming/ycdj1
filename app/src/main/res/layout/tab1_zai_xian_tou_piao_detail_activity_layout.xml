@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_11"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/head_title_option_with_back" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="70dp">
+
+            <com.google.android.flexbox.FlexboxLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="8dp"
+                app:alignContent="center"
+                app:alignItems="center"
+                app:flexWrap="nowrap">
+
+                <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:civ="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/logo_image_view"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/glide_place_holder_c8"
+                    app:layout_flexShrink="0"
+                    civ:border_color="@color/omeng_color_11"
+                    civ:border_color2="@color/circle_image_border_2_color"
+                    civ:border_width="2dp"
+                    civ:border_width2="@dimen/divider_height" />
+
+                <TextView
+                    android:id="@+id/name_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textColor="@color/cb"
+                    android:textSize="@dimen/f15"
+                    app:layout_flexShrink="1"
+                    tools:text="@string/add" />
+
+                <TextView
+                    android:id="@+id/status_text_view"
+                    android:layout_width="60dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/tab1_zai_xian_tou_piao_btn_selector"
+                    android:gravity="center"
+                    android:text="@string/tab1_zxtp_text_11"
+                    android:textColor="@drawable/tab1_zai_xian_tou_piao_text_color_selector"
+                    android:textSize="@dimen/f13"
+                    app:layout_flexShrink="0" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <View style="@style/color_divide_line_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/people_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/tab1_zai_xian_tou_piao_detail_people_bg"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="4dp">
+
+                    <TextView
+                        android:id="@+id/count_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/omeng_color_5"
+                        android:textSize="@dimen/f14"
+                        tools:text="23" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/tab1_zxtp_detail_text_11"
+                        android:textColor="@color/omeng_color_5"
+                        android:textSize="@dimen/f14" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_toLeftOf="@+id/people_view"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f18"
+                    tools:text="关于新时期党员教育问题的措施？" />
+
+                <TextView
+                    android:id="@+id/date1_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_text_view"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toLeftOf="@+id/people_view"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/omeng_color_6"
+                    android:textSize="@dimen/f14"
+                    tools:text="2017-08-18 09:00" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/icon_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/glide_place_holder_c8"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/date2_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/tab1_zxtp_detail_text_12"
+                android:textColor="@color/omeng_color_5"
+                android:textSize="@dimen/f14" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:scrollbars="none" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <!--<RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#EFEFEF"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/tab1_tou_piao_radio_selector"
+                    android:drawablePadding="6dp"
+                    android:drawableRight="@drawable/tab1_tou_piao_right_check_icon"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/omeng_color_5"
+                    android:textSize="@dimen/f15"
+                    tools:text="12222" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#EFEFEF"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/tab1_tou_piao_radio_selector"
+                    android:drawablePadding="6dp"
+                    android:drawableRight="@drawable/tab1_tou_piao_right_check_icon"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/omeng_color_5"
+                    android:textSize="@dimen/f15"
+                    tools:text="12222" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/progress_bar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:id="@+id/progress_bar_1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:max="100"
+                        android:progress="80"
+                        android:progressDrawable="@drawable/tab1_zai_xian_tou_piao_progress_bg" />
+
+                    <TextView
+                        android:id="@+id/progress_text_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f15"
+                        tools:text="12222" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <ProgressBar
+                        android:id="@+id/progress_bar_2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:max="100"
+                        android:progress="20"
+                        android:progressDrawable="@drawable/tab1_zai_xian_tou_piao_progress_gray_bg" />
+
+                    <TextView
+                        android:id="@+id/progress_text_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/omeng_color_11"
+                        android:textSize="@dimen/f15"
+                        tools:text="12222" />
+                </RelativeLayout>
+            </LinearLayout>-->
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/baoming_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/omeng_color_11"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/toupiao_text_view"
+            style="@style/ripple_corner_red_click_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="@string/tab1_zxtp_detail_text_13"
+            android:textColor="@color/omeng_color_11"
+            android:textSize="@dimen/f18" />
+    </LinearLayout>
+
+    <com.shanjin.android.omeng.merchant.library.view.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/multi_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        app:msv_animateViewChanges="false"
+        app:msv_emptyView="@layout/empty_view"
+        app:msv_errorView="@layout/error_view"
+        app:msv_loadingView="@layout/loading_view"
+        app:msv_viewState="loading">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.shanjin.android.omeng.merchant.library.view.MultiStateView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

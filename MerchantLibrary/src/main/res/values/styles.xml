@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarDarkTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+        <item name="colorControlNormal">@color/omeng_color_11</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+    </style>
+    <style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/f16</item>
+    </style>
+
+    <style name="color_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="shop_detail_vip_color_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">#4c4c4c</item>
+    </style>
+
+    <style name="color_divide_shu_line_style">
+        <item name="android:layout_width">@dimen/divider_height</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="listview_item_root_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style>
+
+    <style name="listview_style_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@color/list_view_divide_color</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+
+    <style name="custom_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="BottomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialog.AnimationStyle</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="BottomDialog.AnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    <style name="MiddleDialog" parent="Theme.AppCompat.Light.Dialog"><!--@android:style/Theme.DeviceDefault.Dialog-->
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/MiddleDialog.AnimationStyle</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="MiddleDialog.AnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <style name="PopUpAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+        <item name="android:windowShowAnimation">@anim/alpha_in</item>
+        <item name="android:windowHideAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!--======================================================-->
+    <style name="ripple_common_gray_click_style">
+        <item name="android:background">@drawable/ripple_common_gray_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_common_white_click_style">
+        <item name="android:background">@drawable/ripple_common_white_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_corner_red_click_style">
+        <item name="android:background">@drawable/ripple_corner_red_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_rect_red_click_style">
+        <item name="android:background">@drawable/ripple_rect_red_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_corner_stroke_white_click_style">
+        <item name="android:background">@drawable/ripple_corner_stroke_white_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_top_toolbar_btn_white_click_style">
+        <item name="android:background">@drawable/ripple_common_white_selector</item>
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+    <style name="ripple_top_toolbar_btn_gray_click_style">
+        <item name="android:background">@drawable/ripple_common_gray_selector</item>
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+    <style name="ripple_top_toolbar_btn_tran_click_style">
+        <item name="android:background">@drawable/ripple_common_tran_selector</item>
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+
+    <style name="ripple_circle_red_selector">
+        <item name="android:background">@drawable/ripple_circle_red_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="ripple_circle_stroke_red_selector">
+        <item name="android:background">@drawable/ripple_circle_stroke_red_selector</item>
+        <!--<item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+
+
+    <style name="GridPasswordView" />
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="fits_system_windows">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearence</item>
+    </style>
+    <style name="TabTextAppearence" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

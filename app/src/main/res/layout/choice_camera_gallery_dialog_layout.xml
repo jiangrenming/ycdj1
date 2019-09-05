@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choice_camera_gallery_dialog_bg_top"
+        android:gravity="center"
+        android:text="@string/selector_photo_title"
+        android:textColor="@color/omeng_color_14"
+        android:textSize="@dimen/f16" />
+
+    <ImageView style="@style/color_divide_line_style" />
+
+    <TextView
+        android:id="@+id/camera_text_view"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/choice_camera_gallery_dialog_bg_2"
+        android:gravity="center"
+        android:text="@string/selector_from_camera"
+        android:textColor="@color/omeng_color_4"
+        android:textSize="@dimen/f15" />
+
+    <ImageView style="@style/color_divide_line_style" />
+
+    <TextView
+        android:id="@+id/gallery_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/choice_camera_gallery_dialog_bg_3"
+        android:gravity="center"
+        android:text="@string/selector_from_album"
+        android:textColor="@color/omeng_color_4"
+        android:textSize="@dimen/f15" />
+
+    <TextView
+        android:id="@+id/cancel_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/choice_camera_gallery_dialog_bg_4"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/omeng_color_4"
+        android:textSize="@dimen/f15" />
+</LinearLayout>

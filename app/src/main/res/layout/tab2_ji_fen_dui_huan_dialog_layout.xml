@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/omeng_color_11"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tab2_jifenduihuan_success_icon" />
+
+    <TextView
+        android:id="@+id/temp_1_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/tab2_jfdh_detail_text_21"
+        android:textColor="#44C678"
+        android:textSize="@dimen/f20" />
+
+    <TextView
+        android:id="@+id/temp_2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/tab2_jfdh_detail_text_22"
+        android:textColor="@color/omeng_color_4"
+        android:textSize="@dimen/f16" />
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/tab2_jfdh_detail_text_23"
+        android:textColor="@color/omeng_color_5"
+        android:textSize="@dimen/f13" />
+
+    <TextView
+        android:id="@+id/see_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tab1_hu_dong_ping_lun_detail_btn_selector"
+        android:gravity="center"
+        android:text="@string/tab2_jfdh_detail_text_24"
+        android:textColor="@color/omeng_color_11"
+        android:textSize="@dimen/f16" />
+</LinearLayout>

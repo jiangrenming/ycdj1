@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="242dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tab1_zai_xian_tou_piao_dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tab1_zai_xian_kao_shi_dialog_top_icon" />
+
+    <ImageView
+        android:id="@+id/close_image_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/icon_image_view"
+        android:layout_alignTop="@+id/icon_image_view"
+        android:scaleType="center"
+        android:src="@drawable/tab1_zai_xian_kao_shi_dialog_close_icon" />
+
+    <TextView
+        android:id="@+id/message_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon_image_view"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/tab1_zxks_detail_text_61"
+        android:textColor="@color/omeng_color_1"
+        android:textSize="@dimen/f20" />
+
+    <TextView
+        android:id="@+id/ok_text_view"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/message_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/tab1_zai_xian_kao_shi_dialog_btn_selector"
+        android:gravity="center"
+        android:text="@string/btn_commit"
+        android:textColor="@drawable/tab1_zai_xian_kao_shi_dialog_text_color_selector"
+        android:textSize="@dimen/f16" />
+</RelativeLayout>

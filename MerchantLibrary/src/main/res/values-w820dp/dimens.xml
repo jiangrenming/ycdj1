@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="badge_left_margin">5dp</dimen>
+
+    <!--3.0视觉字体大小规范-->
+    <dimen name="f32">32sp</dimen>
+    <dimen name="f26">26sp</dimen>
+    <dimen name="f20">20sp</dimen>
+    <dimen name="f18">18sp</dimen>
+    <dimen name="f17">17sp</dimen>
+    <dimen name="f16">16sp</dimen>
+    <dimen name="f15">15sp</dimen>
+    <dimen name="f14">14sp</dimen>
+    <dimen name="f13">13sp</dimen>
+    <dimen name="f12">12sp</dimen>
+    <dimen name="f11">11sp</dimen>
+    <dimen name="f10">10sp</dimen>
+    <dimen name="f9">9sp</dimen>
+    <dimen name="f8">8sp</dimen>
+</resources>

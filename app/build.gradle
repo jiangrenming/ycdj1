@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+
+        applicationId "com.cl.dangjian"
+        //最小兼容版本
+        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
+        //目标编译版本
+        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
+        //打包的版本号
+        versionCode APP_VERSION_CODE as int
+        //打包的版本名字
+        versionName APP_VERSION_NAME
+
+        //开启分包
+        multiDexEnabled true
+        //Vector矢量图兼容支持
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //添加如下配置就OK了
+//        javaCompileOptions {
+//            annotationProcessorOptions { includeCompileClasspath = true }
+//        }
+    }
+
+    //解决编译时内存溢出
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    // 签名文件配置
+    signingConfigs {
+        myConfig {
+            storeFile file('dangjian.jks')
+            storePassword 'dangjian'
+            keyAlias 'dangjian'
+            keyPassword 'dangjian'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig android.signingConfigs.myConfig
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            // 自定义属性
+            buildConfigField "String", "APP_VERSION_NAME_SETTING_PAGE", APP_VERSION_NAME_SETTING_PAGE
+            buildConfigField "boolean", "IS_TEST", RELEASE_IS_TEST
+        }
+
+        debug {
+            signingConfig android.signingConfigs.myConfig
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            // 自定义属性
+            buildConfigField "String", "APP_VERSION_NAME_SETTING_PAGE", APP_VERSION_NAME_SETTING_PAGE
+            buildConfigField "boolean", "IS_TEST", RELEASE_IS_TEST
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile project(':MerchantLibrary')
+    compile project(':mylibrary')
+    //下載更新
+    implementation 'org.xutils:xutils:3.3.40'
+}

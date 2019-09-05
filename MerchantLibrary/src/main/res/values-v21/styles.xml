@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ripple_top_toolbar_btn_white_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <!--?selectableItemBackgroundBorderless-->
+        <!--?android:attr/selectableItemBackgroundBorderless-->
+        <!--?attr/selectableItemBackgroundBorderless-->
+        <!--?android:selectableItemBackgroundBorderless-->
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+    <style name="ripple_top_toolbar_btn_gray_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <!--?selectableItemBackgroundBorderless-->
+        <!--?android:attr/selectableItemBackgroundBorderless-->
+        <!--?attr/selectableItemBackgroundBorderless-->
+        <!--?android:selectableItemBackgroundBorderless-->
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+    <style name="ripple_top_toolbar_btn_tran_click_style">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <!--?selectableItemBackgroundBorderless-->
+        <!--?android:attr/selectableItemBackgroundBorderless-->
+        <!--?attr/selectableItemBackgroundBorderless-->
+        <!--?android:selectableItemBackgroundBorderless-->
+        <!--<item name="android:background">@drawable/ripple_common_gray_selector</item>-->
+    </style>
+
+</resources>

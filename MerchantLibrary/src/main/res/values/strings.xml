@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">MerchantLibrary</string>
+
+    <string name="btn_commit">确定</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_set">设置</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="next_step">下一步</string>
+    <string name="save_success">保存成功</string>
+    <string name="create">新建</string>
+    <string name="dialog_i_know">我知道了</string>
+    <string name="add">添加</string>
+    <string name="done">完成</string>
+    <string name="edit">编辑</string>
+    <string name="submit">提交</string>
+    <string name="handler">处理中&#8230;</string>
+    <string name="send">发送</string>
+
+    <string name="network_error">加载失败, 请稍后再试!</string>
+
+    <string name="multi_no_data">暂无数据</string>
+    <string name="multi_network_error">点击重新加载</string>
+    <string name="get_bean_error">获取数据失败</string>
+    <string name="load_bean_error">加载数据失败</string>
+    <string name="network_not_pass">网络链接错误</string>
+    <string name="click_to_refresh">点击刷新</string>
+
+    <string name="permission_title">提示</string>
+    <string name="permission_msg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="settings">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="login_out_progress">正在退出&#8230;</string>
+    <string name="send_progress">正在发送&#8230;</string>
+    <string name="upload_progress">正在上传&#8230;</string>
+    <string name="delete_progress">正在删除&#8230;</string>
+    <string name="save_progress">正在保存&#8230;</string>
+    <string name="login_progress">正在登录&#8230;</string>
+    <string name="set_progress">设置中&#8230;</string>
+    <string name="doing_progress">操作中&#8230;</string>
+    <string name="deal_progress">处理中&#8230;</string>
+    <string name="search_progress">正在搜索&#8230;</string>
+
+    <string name="show_no_dial_tips">无法拨打电话!</string>
+    <string name="show_no_sms_tips">无法发送短信!</string>
+    <string name="uninstall_browser">你尚未安装浏览器！</string>
+
+    <string name="vista_share_title">分享</string>
+
+    <string name="tab_title_format">&#160;&#160;%1$s&#160;&#160;</string>
+    <string name="emoji_hint">请不要输入表情字符</string>
+    <string name="emoji_hint_2">暂时不支持发送表情</string>
+    <string name="prb_default_symbolic_string">$</string>
+
+    <string name="expand_text_view_up">收起</string>
+    <string name="expand_text_view_down">展开</string>
+
+    <string name="bundle_verify_top_tip">请输入支付安全密码</string>
+    <string name="bundle_verify_reload">点击重试</string>
+    <string name="encrpy_data_error">加密数据失败</string>
+
+    <!--runtime permission-->
+    <string name="permission_friendly_tips">为了更好的产品体验，在使用过程中会申请一些权限，请允许它们！</string>
+    <string name="permission_notify_msg">当前应用缺少%1$s权限。请前往\"设置\"-\"权限\"页面打开所需权限。</string>
+    <string name="permission_location">定位</string>
+    <string name="permission_location_rationale">需要定位权限才能开启定位。</string>
+    <string name="permission_location_denied">定位权限被拒绝。为了程序的正常使用，请允许它！</string>
+    <string name="permission_location_splash_denied">定位权限被拒绝。为了程序的正常使用，请前往系统设置-应用管理页面允许它！</string>
+    <string name="permission_location_never_ask_again">定位权限被拒绝，并设置为不再询问。</string>
+    <string name="permission_location_gps_tip">缺少定位权限，或GPS未打开！</string>
+    <string name="permission_record_audio">录音</string>
+    <string name="permission_record_audio_rationale">需要录音权限才能正常录音。</string>
+    <string name="permission_record_audio_denied">录音权限被拒绝。为了程序的正常使用，请允许它！</string>
+    <string name="permission_storage">访问存储设备</string>
+    <string name="permission_storage_rationale">缺少访问存储设备权限。为了程序的正常使用，请允许它！</string>
+    <string name="permission_storage_denied">访问存储设备权限被拒绝。为了程序的正常使用，请允许它！</string>
+    <string name="permission_camera">相机</string>
+    <string name="permission_camera_rationale">需要相机权限才能进行拍照。</string>
+    <string name="permission_camera_denied">相机权限被拒绝。为了程序的正常使用，请允许它！</string>
+    <string name="setting">设置</string>
+
+    <string name="cant_find_camera">没有系统相机</string>
+    <string name="cant_find_gallery">未找到相册软件</string>
+    <string name="cant_find_pictrue">未找到图片</string>
+    <string name="add_photo_error">添加相片失败</string>
+
+    <!-- ChoiceCameraGalleryDialog -->
+    <string name="selector_photo_title">选择照片</string>
+    <string name="selector_from_see">查看</string>
+    <string name="selector_from_camera">拍照</string>
+    <string name="selector_from_album">从相册中选择</string>
+
+    <string name="picker_today">今日</string>
+    <string name="picker_am">上午</string>
+    <string name="picker_pm">下午</string>
+    <string name="picker_time_long_term">长期有效</string>
+
+    <string name="business_scope_tag_max_tip">当前版本最多支持添加%1$s个服务项目</string>
+
+    <string name="date_ago_text_1">刚刚</string>
+    <string name="date_ago_text_2">%1$d秒前</string>
+    <string name="date_ago_text_3">%1$d分钟前</string>
+    <string name="date_ago_text_4">%1$d小时前</string>
+    <string name="date_ago_text_5">%1$d天前</string>
+    <string name="date_ago_text_6">%1$d周前</string>
+    <string name="date_ago_text_7">%1$d月前</string>
+    <string name="date_ago_text_8">%1$d年前</string>
+
+    <string name="wechat_app_no_found">请先安装微信客户端！</string>
+    <string name="qq_app_no_found">请先安装QQ客户端！</string>
+
+</resources>

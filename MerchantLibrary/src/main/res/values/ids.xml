@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="scrollview"/>
+    <item name="tag_multistateview" type="id"/>
+    <item name="tag_glide_id" type="id"/>
+    <item name="tag_glide_order_detail_id" type="id"/>
+    <item name="keyboard_view" type="id"/>
+    <item name="tag_hall_tag_auth_id" type="id"/>
+    <item type="id" name="prb_child_tag_id" />
+
+    <item name="circular_image_view_1" type="id"/>
+    <item name="circular_image_view_2" type="id"/>
+    <item name="circular_image_view_3" type="id"/>
+
+
+    <item type="id" name="statusbarutil_fake_status_bar_view" />
+    <item type="id" name="statusbarutil_translucent_view" />
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/tab3_head_title_option_with_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head_title_view"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tab3_zheng_wu_ban_li_banner" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_jwfw"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_11"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_mzfw"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_12"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_cyjy"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_13"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_shbz"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_14"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_wsjs"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_21"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_scjd"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_22"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_sbyb"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_23"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_zjbl"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_24"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_fwcq"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_31"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_flwq"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_32"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_zheng_wu_ban_li_hjhz"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_33"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab3_shgj_menu_icon_more"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/tab3_zwbl_text_34"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f14" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

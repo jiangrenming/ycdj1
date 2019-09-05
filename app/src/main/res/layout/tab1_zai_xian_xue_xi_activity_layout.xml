@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/tab1_head_title_option_with_back" />
+
+    <com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_view"
+        android:layout_below="@+id/head_title_view" />
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/omeng_color_12"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:id="@+id/re_men_view"
+            style="@style/ripple_common_white_click_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab1_zai_xian_xue_xi_re_men_ke_jian" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/tab1_zxxx_text_21"
+                android:textColor="@color/tab1_tab_layout_color"
+                android:textSize="@dimen/f16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:id="@+id/pai_hang_view"
+            style="@style/ripple_common_white_click_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab1_zai_xian_xue_xi_xue_xi_pai_hang" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/tab1_zxxx_text_22"
+                android:textColor="@color/tab1_tab_layout_color"
+                android:textSize="@dimen/f16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/zai_xian_kao_shi_text_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bottom_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/tab1_zai_xian_xue_xi_blue_circle_bg"
+        android:gravity="center"
+        android:text="@string/tab1_zxxx_text_3"
+        android:textColor="@color/omeng_color_11"
+        android:textSize="@dimen/f17" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--=========================================================-->
+    <style name="Theme.AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="stateSelector">@color/state_selector_light</item>
+        <item name="accentColor">@color/accent</item>
+        <item name="iconColor">@android:color/black</item>
+        <item name="windowBackground">@color/window_background</item>
+        <item name="fabCircleColor">@color/fabCircleColor_light</item>
+    </style>
+    <style name="Base.Theme.AppTheme.Light" parent="Theme.AppTheme.Light">
+        <!-- 解决activity切换时的黑屏问题 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="android:windowAnimationStyle">@style/fade</item>
+
+        <item name="android:statusBarColor">@color/status_bar_dark_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Base.Theme.AppTheme.Light.Translucent" parent="Theme.AppTheme.Light">
+        <!-- 解决activity切换时的黑屏问题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@color/omeng_color_1</item>
+        <item name="android:windowAnimationStyle">@style/fade</item>
+
+        <item name="android:statusBarColor">@color/status_bar_dark_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/task_slide_in_right_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/task_slide_out_left_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/task_slide_in_left_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/task_slide_out_right_anim</item>
+    </style>
+    <!--=========================================================-->
+
+</resources>

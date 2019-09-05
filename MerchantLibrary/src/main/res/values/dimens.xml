@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--字体基础大小-->
+    <!--<dimen name="omeng_text_0">11sp</dimen>
+    <dimen name="omeng_text_1">12sp</dimen>
+    <dimen name="omeng_text_2">13sp</dimen>
+    <dimen name="omeng_text_3">14sp</dimen>
+    <dimen name="omeng_text_4">15sp</dimen>
+    <dimen name="omeng_text_5">16sp</dimen>
+    <dimen name="omeng_text_6">18sp</dimen>
+    <dimen name="omeng_text_7">20sp</dimen>
+    <dimen name="omeng_text_8">40sp</dimen>-->
+
+    <!--3.0视觉字体大小规范-->
+    <dimen name="f32">32sp</dimen>
+    <dimen name="f26">26sp</dimen>
+    <dimen name="f20">20sp</dimen>
+    <dimen name="f18">18sp</dimen>
+    <dimen name="f17">17sp</dimen>
+    <dimen name="f16">16sp</dimen>
+    <dimen name="f15">15sp</dimen>
+    <dimen name="f14">14sp</dimen>
+    <dimen name="f13">13sp</dimen>
+    <dimen name="f12">12sp</dimen>
+    <dimen name="f11">11sp</dimen>
+    <dimen name="f10">10sp</dimen>
+    <dimen name="f9">9sp</dimen>
+    <dimen name="f8">8sp</dimen>
+
+
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="tag_line_height">1dp</dimen>
+    <dimen name="multi_loading_progress_bar_width">36dp</dimen>
+    <dimen name="head_title_height">50dp</dimen>
+    <dimen name="item_height">48dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="edit_text_height">48dp</dimen>
+    <dimen name="search_edit_text_height">34dp</dimen>
+    <dimen name="toolbar_shadow_height">3dp</dimen>
+    <dimen name="drag_square_interval">4dp</dimen>
+    <dimen name="side_bar_text_size">14sp</dimen>
+    <dimen name="side_bar_margin">12dp</dimen>
+
+    <dimen name="keyboard_height">55dp</dimen>
+    <dimen name="pass_height">55dp</dimen>
+    <dimen name="grid_password_padding">20dp</dimen>
+    <dimen name="grid_password_margin">8dp</dimen>
+    <dimen name="bank_list_item_height">140dp</dimen>
+    <dimen name="bank_list_image_width">60dp</dimen>
+    <dimen name="bank_verify_height_1">370dp</dimen>
+    <dimen name="bank_verify_height_2">319dp</dimen>
+
+    <dimen name="WheelItemTextSize">24sp</dimen>
+    <dimen name="WheelItemSpace">12dp</dimen>
+    <dimen name="WheelIndicatorSize">2dp</dimen>
+    <dimen name="WheelMargins">8dp</dimen>
+    <dimen name="wheel_spacing">30dp</dimen>
+    <dimen name="wheelSelectorHeight">40dp</dimen>
+
+    <!-- CheckDrawableUtil -->
+    <dimen name="round_corner_radius">8dp</dimen>
+    <dimen name="round_stroke_width">0.5dp</dimen>
+    <dimen name="vip_round_corner_radius">13dp</dimen>
+    <dimen name="vip_round_stroke_width">1dp</dimen>
+
+    <dimen name="prb_symbolic_tick_default_text_size">15sp</dimen>
+    <dimen name="prb_drawable_tick_default_spacing">1dp</dimen>
+
+
+    <dimen name="space_navigation_height">72dp</dimen>
+    <dimen name="main_content_height">50dp</dimen>
+    <dimen name="space_centre_button_default_size">50dp</dimen>
+    <dimen name="space_centre_button_margin">2dp</dimen>
+    <dimen name="centre_content_width">72dp</dimen>
+    <dimen name="space_item_icon_default_size">20dp</dimen>
+    <dimen name="space_item_icon_only_size">25dp</dimen>
+    <dimen name="space_item_text_default_size">10sp</dimen>
+    <dimen name="badge_left_margin">5dp</dimen>
+    <dimen name="view_bottom_margin">50dp</dimen>
+
+    <dimen name="statusbar_view_height">0dp</dimen>
+</resources>

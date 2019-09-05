@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.shanjin.android.omeng.merchant.library.view.SquareFrameLayout
+        android:id="@+id/add_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_add_dotted_line_shape">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:src="@drawable/posting_image_add_icon" />
+    </com.shanjin.android.omeng.merchant.library.view.SquareFrameLayout>
+
+</LinearLayout>

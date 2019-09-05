@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_11"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/head_title_option_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f18" />
+            <TextView
+                android:id="@+id/city_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_marginRight="6dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_address"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:id="@+id/time_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableLeft="@drawable/tab2_huo_dong_icon_shijian"
+                    android:textSize="@dimen/f13"
+                    android:textColor="@color/omeng_color_6"
+                    />
+
+
+                <TextView
+                    android:id="@+id/see_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_see"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/omeng_color_6"
+                    android:textSize="@dimen/f13" />
+
+                <TextView
+                    android:id="@+id/zan_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:drawableLeft="@drawable/icon_zan"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/omeng_color_6"
+                    android:textSize="@dimen/f13" />
+            </LinearLayout>
+
+
+            <View
+                style="@style/color_divide_line_style"
+                android:layout_marginTop="10dp" />
+
+            <com.shanjin.android.omeng.merchant.library.view.richtextview.RichTextView
+                android:id="@+id/content_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="50dp"
+                android:textColor="@color/omeng_color_13"
+                android:textSize="@dimen/f16"
+                android:visibility="gone" />
+
+            <WebView
+                android:id="@+id/activity_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="180dp"
+                android:scrollbars="none"
+                tools:ignore="WebViewLayout" />
+            <!--<com.tencent.smtt.sdk.WebView-->
+                <!--android:id="@+id/activity_web_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingBottom="180dp"-->
+                <!--android:scrollbars="none" />-->
+
+            <View
+                style="@style/color_divide_line_style"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/jubao_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/omeng_color_11"
+        android:paddingBottom="12dp"
+        android:visibility="gone">
+
+        <View style="@style/color_divide_line_style" />
+
+        <TextView
+            android:id="@+id/temp_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/tab1_tongzhigonggao_icon_jubao"
+            android:drawablePadding="6dp"
+            android:text="@string/tab1_tzgg_detail_text_11"
+            android:textColor="@color/omeng_color_5"
+            android:textSize="@dimen/f15" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp_text_view"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/tab1_jubao_edit_bg">
+
+            <EditText
+                android:id="@+id/input_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/tab1_tzgg_detail_text_12"
+                android:maxLength="200"
+                android:minHeight="60dp"
+                android:padding="10dp"
+                android:textColor="@color/omeng_color_5"
+                android:textColorHint="@color/omeng_color_6"
+                android:textSize="@dimen/f16" />
+
+            <View
+                android:id="@+id/input_line_view"
+                style="@style/color_divide_line_style"
+                android:layout_below="@id/input_edit_text" />
+
+            <TextView
+                android:id="@+id/send_text_view"
+                style="@style/ripple_rect_red_click_style"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/input_line_view"
+                android:gravity="center"
+                android:text="@string/tab1_tzgg_detail_text_13"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f15" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.shanjin.android.omeng.merchant.library.view.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/multi_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        app:msv_animateViewChanges="false"
+        app:msv_emptyView="@layout/empty_view"
+        app:msv_errorView="@layout/error_view"
+        app:msv_loadingView="@layout/loading_view"
+        app:msv_viewState="loading">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.shanjin.android.omeng.merchant.library.view.MultiStateView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

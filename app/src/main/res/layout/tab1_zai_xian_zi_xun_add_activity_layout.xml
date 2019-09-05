@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_11"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/head_title_option_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tab1_zai_xian_zi_xun_add_icon_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/tab1_zxzx_add_text_11"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f15" />
+
+                <EditText
+                    android:id="@+id/zhuti_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/omeng_color_11"
+                    android:hint="@string/tab1_zxzx_add_text_12"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:textColor="@color/omeng_color_4"
+                    android:textColorHint="@color/omeng_color_6"
+                    android:textSize="@dimen/f15" />
+            </LinearLayout>
+
+            <View
+                style="@style/color_divide_line_style"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp" />
+
+            <LinearLayout
+                android:id="@+id/duixiang_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tab1_zai_xian_zi_xun_add_icon_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/tab1_zxzx_add_text_21"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f15" />
+
+                <TextView
+                    android:id="@+id/duixiang_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tab1_zxzx_add_text_22"
+                    android:maxLines="1"
+                    android:textColor="@color/omeng_color_4"
+                    android:textColorHint="@color/omeng_color_6"
+                    android:textSize="@dimen/f15" />
+            </LinearLayout>
+
+            <View
+                style="@style/color_divide_line_style"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tab1_zai_xian_zi_xun_add_icon_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/tab1_zxzx_add_text_31"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f15" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/content_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/tab1_zai_xian_zi_xun_add_edit_bg"
+                android:gravity="top"
+                android:hint="@string/tab1_zxzx_add_text_32"
+                android:maxLength="300"
+                android:minHeight="120dp"
+                android:padding="10dp"
+                android:textColor="@color/omeng_color_4"
+                android:textColorHint="@color/omeng_color_6"
+                android:textSize="@dimen/f15" />
+
+            <TextView
+                android:id="@+id/commit_text_view"
+                style="@style/ripple_corner_red_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/tab1_zxzx_add_text_41"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f18" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

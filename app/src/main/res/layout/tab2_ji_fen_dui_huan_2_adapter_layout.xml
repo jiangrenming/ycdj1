@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/icon_image_view"
+            android:layout_width="110dp"
+            android:layout_height="78dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/glide_place_holder_c8" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f15" />
+
+        <TextView
+            android:id="@+id/jifen_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_text_view"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/tab2_color"
+            android:textSize="@dimen/f16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/jifen_text_view"
+            android:layout_toRightOf="@+id/jifen_text_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="1dp"
+            android:text="@string/tab2_jfdh_text_31"
+            android:textColor="@color/tab2_color"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/count_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jifen_text_view"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:text="@string/tab2_jfdh_text_41"
+            android:textColor="@color/omeng_color_14"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/count_text_view"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:text="@string/tab2_jfdh_text_42"
+            android:textColor="@color/omeng_color_14"
+            android:textSize="@dimen/f13" />
+
+        <TextView
+            android:id="@+id/status_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_text_view"
+            android:layout_toRightOf="@+id/icon_image_view"
+            android:textColor="@color/omeng_color_14"
+            android:textSize="@dimen/f13" />
+    </RelativeLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

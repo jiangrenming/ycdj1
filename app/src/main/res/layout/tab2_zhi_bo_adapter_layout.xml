@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/omeng_color_4"
+            android:textSize="@dimen/f16" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/icon_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/glide_place_holder_c8" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/tab2_zhi_bo_item_play_icon" />
+        </RelativeLayout>
+
+        <com.google.android.flexbox.FlexboxLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            app:alignContent="center"
+            app:alignItems="center"
+            app:flexWrap="nowrap">
+
+            <TextView
+                android:id="@+id/see_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_see"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13"
+                app:layout_flexShrink="0" />
+
+            <TextView
+                android:id="@+id/zan_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/icon_zan"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13"
+                app:layout_flexShrink="0" />
+
+            <TextView
+                android:id="@+id/player_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical|right"
+                android:maxLines="1"
+                android:textColor="@color/omeng_color_5"
+                android:textSize="@dimen/f13"
+                app:layout_flexShrink="1" />
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

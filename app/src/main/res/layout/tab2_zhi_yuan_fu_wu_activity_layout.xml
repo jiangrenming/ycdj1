@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/tab2_head_title_option_with_back" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        style="@style/Tab2TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_title_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@color/omeng_color_11" />
+
+    <View
+        android:id="@+id/tab_layout_line"
+        style="@style/color_divide_line_style"
+        android:layout_below="@id/tab_layout" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout_line"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="70dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:id="@+id/tui_jian_view"
+            style="@style/ripple_common_white_click_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab2_zhi_yuan_fu_wu_tuijian" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/tab2_zyfw_text_4"
+                android:textColor="@color/btn_color_n"
+                android:textSize="@dimen/f16" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fabu_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/tab2_zhi_yuan_fu_wu_fabu_bg"
+        android:gravity="center"
+        android:text="@string/tab2_zyfw_text_5"
+        android:textColor="@color/omeng_color_11"
+        android:textSize="@dimen/f11" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

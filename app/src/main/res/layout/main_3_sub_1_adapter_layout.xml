@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/icon_image_view"
+            android:layout_width="108dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/glide_place_holder_c8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f16" />
+
+            <TextView
+                android:id="@+id/city_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/title_text_view"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_address"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_5"
+                android:textSize="@dimen/f13" />
+
+            <TextView
+                android:id="@+id/time_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableLeft="@drawable/tab2_huo_dong_icon_shijian"
+                android:layout_below="@id/city_text_view"
+                android:textSize="@dimen/f13"
+                android:textColor="@color/omeng_color_6"
+                />
+
+            <TextView
+                android:id="@+id/see_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city_text_view"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/icon_see"
+
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:layout_toLeftOf="@+id/zan_text_view"
+                android:textSize="@dimen/f13" />
+
+            <TextView
+                android:id="@+id/zan_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city_text_view"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/icon_zan"
+                android:drawablePadding="4dp"
+                android:textColor="@color/omeng_color_6"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/f13" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

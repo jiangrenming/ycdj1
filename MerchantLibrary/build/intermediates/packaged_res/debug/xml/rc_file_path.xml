@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<root-path
+        name="kl_root_path"
+        path="." />
+
+    <external-path
+        name="kl_external_path"
+        path="." />
+
+    <files-path
+        name="kl_files_path"
+        path="" />
+    <cache-path
+        name="kl_cache_path"
+        path="" />
+    <external-files-path
+        name="kl_external_files_path"
+        path="" />
+    <external-cache-path
+        name="kl_external_cache_path"
+        path="" />-->
+
+    <external-path path="Android/data/${applicationId}/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+
+    <!--files-path，cache-path，external-path，external-files-path，external-cache-path-->
+</paths>

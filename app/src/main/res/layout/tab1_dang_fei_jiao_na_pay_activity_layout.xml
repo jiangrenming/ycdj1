@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head_title_view"
+        layout="@layout/head_title_option_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_title_view"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/tab1_dfjn_pay_text_11"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f15" />
+
+                <TextView
+                    android:id="@+id/price_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/tab1_dfjn_pay_text_12"
+                    android:textColor="@color/omeng_color_1"
+                    android:textSize="@dimen/f16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alipay_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/payment_icon_alipay" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab1_dfjn_pay_text_21"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab1_dfjn_pay_text_22"
+                        android:textColor="@color/omeng_color_5"
+                        android:textSize="@dimen/f10" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/alipay_check_image_view"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/payment_icon_green_check" />
+            </LinearLayout>
+
+            <View style="@style/color_divide_line_style" />
+
+            <LinearLayout
+                android:id="@+id/unionPay_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/payment_icon_unipay" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab1_dfjn_pay_text_23"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab1_dfjn_pay_text_24"
+                        android:textColor="@color/omeng_color_5"
+                        android:textSize="@dimen/f10" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/unionPay_check_image_view"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/payment_icon_green_check"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <View
+                style="@style/color_divide_line_style"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/commit_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/tab1_hu_dong_ping_lun_detail_btn_selector"
+                android:gravity="center"
+                android:text="@string/tab1_dfjn_pay_text_3"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:layout_below="@id/head_title_view"
+        android:background="@drawable/toolbar_bottom_shadow" />
+</RelativeLayout>

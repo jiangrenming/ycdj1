@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/fits_system_windows"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cl.dangjian.activity.MainActivity">
+
+    <com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/main_bottom_tab_height" />
+
+    <!--<com.shanjin.android.omeng.merchant.library.view.spacenavigation.SpaceNavigationView
+        android:id="@+id/spaceNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:centre_part_linear="true" />-->
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/omeng_color_11"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            style="@style/main_tab_radiobutton_style"
+            android:background="@drawable/ripple_common_white_selector"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_1_drawable_selector"
+            android:text="@string/main_menu_text_1"
+            android:textColor="@drawable/tab_1_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            style="@style/main_tab_radiobutton_style"
+            android:background="@drawable/ripple_common_white_selector"
+            android:drawableTop="@drawable/tab_2_drawable_selector"
+            android:text="@string/main_menu_text_2"
+            android:textColor="@drawable/tab_2_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/radio_button_3"
+            style="@style/main_tab_radiobutton_style"
+            android:background="@drawable/ripple_common_white_selector"
+            android:drawableTop="@drawable/tab_3_drawable_selector"
+            android:text="@string/main_menu_text_3"
+            android:textColor="@drawable/tab_3_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/radio_button_4"
+            style="@style/main_tab_radiobutton_style"
+            android:background="@drawable/ripple_common_white_selector"
+            android:drawableTop="@drawable/tab_4_drawable_selector"
+            android:text="@string/main_menu_text_4"
+            android:textColor="@drawable/tab_4_text_color_selector" />
+    </RadioGroup>
+</RelativeLayout>

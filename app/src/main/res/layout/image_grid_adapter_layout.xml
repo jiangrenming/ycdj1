@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listview_item_root_style">
+
+    <com.shanjin.android.omeng.merchant.library.view.SquareLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <FrameLayout
+            android:id="@+id/content_root_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/omeng_color_11">
+
+            <ImageView
+                android:id="@+id/logo_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_photo" />
+
+            <View
+                android:id="@+id/mask_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88000000"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/indicator_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/check_gou" />
+        </FrameLayout>
+    </com.shanjin.android.omeng.merchant.library.view.SquareLayout>
+
+</LinearLayout>

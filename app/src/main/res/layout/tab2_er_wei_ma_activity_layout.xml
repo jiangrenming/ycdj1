@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/omeng_color_12"
+        app:elevation="0dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/main.collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/omeng_color_11"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/head_title_view"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tab2_er_wei_ma_top_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/logo_image_view"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="6dp"
+                        android:src="@drawable/tab2_dang_yuan_xin_xi_default_icon"
+                        app:border_color="@color/omeng_color_11"
+                        app:border_color2="@color/circle_image_border_2_color"
+                        app:border_width="2dp"
+                        app:border_width2="@dimen/divider_height" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="12dp">
+
+                        <TextView
+                            android:id="@+id/name_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/omeng_color_11"
+                            android:textSize="@dimen/f18" />
+
+                        <TextView
+                            android:id="@+id/dangzuzhi_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/omeng_color_11"
+                            android:textSize="@dimen/f13" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_21"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/idcard_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_22"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/sex_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_23"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/minzu_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_24"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/jiguan_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_25"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/wenhua_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab2_erweima_item_height"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/tab2_dyxx_text_26"
+                        android:textColor="@color/omeng_color_4"
+                        android:textSize="@dimen/f15" />
+
+                    <TextView
+                        android:id="@+id/phone_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:textColor="@color/omeng_color_5"
+                        android:textColorHint="@color/omeng_color_6"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="#F4F4F4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/omeng_color_11"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="4dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/tab2_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/tab2_ewm_text_11"
+                        android:textColor="@color/tab2_color"
+                        android:textSize="@dimen/f15" />
+                </LinearLayout>
+
+                <View style="@style/color_divide_line_style" />
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/tab2_toolbar_bg"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ToolbarDarkTheme">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f18" />
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            style="@style/Tab2TabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/omeng_color_11" />
+
+        <View style="@style/color_divide_line_style" />
+    </android.support.design.widget.AppBarLayout>
+
+    <com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </com.shanjin.android.omeng.merchant.library.view.ControlScrollViewPager>
+
+    <com.shanjin.android.omeng.merchant.library.view.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/multi_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:msv_animateViewChanges="false"
+        app:msv_emptyView="@layout/empty_view"
+        app:msv_errorView="@layout/error_view"
+        app:msv_loadingView="@layout/loading_view"
+        app:msv_viewState="loading">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.shanjin.android.omeng.merchant.library.view.MultiStateView>
+</android.support.design.widget.CoordinatorLayout>

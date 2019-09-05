@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omeng_color_12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab4_user_center_top_bg">
+
+            <ImageView
+                android:id="@+id/message_image_view"
+                style="@style/ripple_top_toolbar_btn_tran_click_style"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="center"
+                android:src="@drawable/tab4_user_center_icon_mymessage" />
+
+            <TextView
+                android:id="@+id/unread_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignRight="@+id/message_image_view"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/tab4_unread_msg_count_shape"
+                android:gravity="center"
+                android:minWidth="18dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f8"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/setting_image_view"
+                style="@style/ripple_top_toolbar_btn_tran_click_style"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_toLeftOf="@+id/message_image_view"
+                android:scaleType="center"
+                android:src="@drawable/tab4_user_center_icon_setting" />
+
+            <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/icon_image_view"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/tab4_user_center_icon_default_icon"
+                app:border_color="@color/omeng_color_11"
+                app:border_color2="@color/circle_image_border_2_color"
+                app:border_width="1dp"
+                app:border_width2="@dimen/divider_height" />
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/icon_image_view"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f18"
+                tools:text="韩卡卡" />
+
+            <TextView
+                android:id="@+id/dangzhibu_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_text_view"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f14"
+                tools:text="盐城市盐南新区管委会\n机关党支部" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2F2F2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/score_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E72E3E"
+                    android:textSize="@dimen/f20"
+                    tools:text="84分" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_4_text_11"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+            </LinearLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/shichang_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E72E3E"
+                    android:textSize="@dimen/f20"
+                    tools:text="209小时" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_4_text_12"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/omeng_color_11"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/wodekaoshi_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_wodekaoshi"
+                    android:text="@string/main_4_text_21"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_4_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/wodehuodong_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_wodehuodong"
+                    android:text="@string/main_4_text_22"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_5_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/zhiyuanfuwu_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_zhiyuanzhefuwu"
+                    android:text="@string/main_4_text_23"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_6_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/weixinyuan_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_weixinyuan"
+                    android:text="@string/main_4_text_24"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_7_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/omeng_color_11"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/dangfeijiaona_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_dangfeijiaona"
+                    android:text="@string/main_4_text_25"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_8_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/qiandao_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_huodongqiandao"
+                    android:text="@string/main_4_text_26"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_9_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/wodezixun_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/zixun_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_wodezixun"
+                    android:text="@string/main_4_text_27"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_2_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                android:id="@+id/wodejubao_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jubao_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_wodejubao"
+                    android:text="@string/main_4_text_28"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:id="@+id/unread_3_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/erweima_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="6dp"
+                android:drawableTop="@drawable/tab4_user_center_icon_erweima"
+                android:text="@string/main_4_text_29"
+                android:textColor="@color/omeng_color_13"
+                android:textSize="@dimen/f14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/tab4_unread_msg_count_2_shape"
+                android:gravity="center"
+                android:minWidth="18dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textColor="@color/omeng_color_11"
+                android:textSize="@dimen/f10"
+                android:visibility="invisible" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/omeng_color_11"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/tab4_user_center_icon_erweima"
+                    android:text="@string/main_4_text_29"
+                    android:textColor="@color/omeng_color_13"
+                    android:textSize="@dimen/f14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tab4_unread_msg_count_2_shape"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/omeng_color_11"
+                    android:textSize="@dimen/f10"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+
+            <View style="@style/color_divide_shu_line_style" />
+
+            <RelativeLayout
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab4_user_center_item_height_2"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <View style="@style/color_divide_line_style" />
+
+        <LinearLayout
+            android:id="@+id/manager_center_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <View
+                style="@style/color_divide_line_style"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@color/omeng_color_11"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/tab4_user_center_icon_guanlizhongxin"
+                    android:drawablePadding="6dp"
+                    android:text="@string/main_4_text_31"
+                    android:textColor="@color/omeng_color_4"
+                    android:textSize="@dimen/f18" />
+            </LinearLayout>
+
+            <View style="@style/color_divide_line_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/omeng_color_11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/zuzhiguanli_view"
+                    style="@style/ripple_common_white_click_style"
+                    android:layout_width="90dp"
+                    android:layout_height="@dimen/tab4_user_center_item_height_3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="6dp"
+                        android:drawableTop="@drawable/tab4_user_center_icon_zuzhiguanli"
+                        android:text="@string/main_4_text_33"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dangyuanguanli_view"
+                    style="@style/ripple_common_white_click_style"
+                    android:layout_width="90dp"
+                    android:layout_height="@dimen/tab4_user_center_item_height_3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="6dp"
+                        android:drawableTop="@drawable/tab4_user_center_icon_dangyuanguanli"
+                        android:text="@string/main_4_text_32"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/huodongguanli_view"
+                    style="@style/ripple_common_white_click_style"
+                    android:layout_width="90dp"
+                    android:layout_height="@dimen/tab4_user_center_item_height_3"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="6dp"
+                        android:drawableTop="@drawable/tab4_user_center_icon_huodongguanli"
+                        android:text="@string/main_4_text_34"
+                        android:textColor="@color/omeng_color_13"
+                        android:textSize="@dimen/f14" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/color_divide_line_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/omeng_color_11"
+            android:orientation="vertical">
+
+            <View style="@style/color_divide_line_style" />
+
+            <TextView
+                android:id="@+id/logout_text_view"
+                style="@style/ripple_common_white_click_style"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/main_4_text_41"
+                android:textColor="@color/omeng_color_1"
+                android:textSize="@dimen/f18" />
+
+            <View style="@style/color_divide_line_style" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

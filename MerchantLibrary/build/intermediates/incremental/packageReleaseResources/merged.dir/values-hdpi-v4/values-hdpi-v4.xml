@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="badge_left_margin">1dp</dimen>
+    <dimen name="divider_height">1px</dimen>
+    <dimen name="f10">8sp</dimen>
+    <dimen name="f11">9sp</dimen>
+    <dimen name="f12">10sp</dimen>
+    <dimen name="f13">11sp</dimen>
+    <dimen name="f14">12sp</dimen>
+    <dimen name="f15">13sp</dimen>
+    <dimen name="f16">14sp</dimen>
+    <dimen name="f17">15sp</dimen>
+    <dimen name="f18">16sp</dimen>
+    <dimen name="f20">18sp</dimen>
+    <dimen name="f26">24sp</dimen>
+    <dimen name="f32">30sp</dimen>
+    <dimen name="f8">6sp</dimen>
+    <dimen name="f9">7sp</dimen>
+</resources>

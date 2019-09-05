@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/icon_image_view"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/glide_place_holder_c8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f15" />
+
+            <TextView
+                android:id="@+id/date_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_text_view"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_time"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/tab2_zyfw_text_21"
+                android:textColor="@color/omeng_color_14"
+                android:textSize="@dimen/f12" />
+
+            <TextView
+                android:id="@+id/count_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_text_view"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/tab1_zuzhishenghuo_1_people"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/tab2_zyfw_text_22"
+                android:textColor="@color/omeng_color_14"
+                android:textSize="@dimen/f12" />
+
+            <TextView
+                android:id="@+id/score_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/count_text_view"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/tab2_zhi_yuan_fu_wu_score"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/tab2_zyfw_text_23"
+                android:textColor="@color/omeng_color_14"
+                android:textSize="@dimen/f12" />
+
+            <TextView
+                android:id="@+id/status_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/score_text_view"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/tab1_zai_xian_tou_piao_status_1_shape"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="3dp"
+                android:text="@string/tab2_zyfw_text_31"
+                android:textColor="@drawable/tab1_zai_xian_tou_piao_text_color_selector"
+                android:textSize="@dimen/f12" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>

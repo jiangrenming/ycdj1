@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        style="@style/ripple_common_white_click_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp">
+
+        <com.shanjin.android.omeng.merchant.library.view.CircleImageView xmlns:civ="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/icon_image_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/glide_place_holder_c8"
+            civ:border_color="#F99F49"
+            civ:border_color2="#F99F49"
+            civ:border_width="2dp"
+            civ:border_width2="0dp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/omeng_color_4"
+                android:textSize="@dimen/f16" />
+
+            <TextView
+                android:id="@+id/dangzuzhi_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_text_view"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/omeng_color_6"
+                android:textSize="@dimen/f13" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/color_divide_line_style" />
+</LinearLayout>
